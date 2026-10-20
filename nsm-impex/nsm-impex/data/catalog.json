@@ -1,0 +1,4920 @@
+[
+  {
+    "id": "prod-verified-auth-product-1792024570096",
+    "name": "Verified Auth Product",
+    "slug": "verified-auth-product",
+    "category": "tops",
+    "subcategory": "Hoodies",
+    "productCode": "",
+    "description": "",
+    "shortDescription": "",
+    "images": [],
+    "fabric": "",
+    "composition": "",
+    "gsm": "",
+    "fit": "",
+    "sizes": "",
+    "colors": "",
+    "sizeOptions": [],
+    "colorOptions": [],
+    "season": "",
+    "customization": "",
+    "packaging": "",
+    "moq": "",
+    "leadTime": "",
+    "featured": false,
+    "published": true,
+    "sortOrder": 0,
+    "createdAt": "2026-10-15T00:36:10.096Z",
+    "updatedAt": "2026-10-15T00:36:10.097Z"
+  },
+  {
+    "id": "prod-sherpa-jacket-1792527474037",
+    "name": "Sherpa Jacket",
+    "slug": "sherpa-jacket",
+    "category": "jackets-outerwear",
+    "subcategory": "Lightweight jacket",
+    "productCode": "0321",
+    "description": "Light material but will keep you warm",
+    "shortDescription": "Puffer Light Weight Jacket",
+    "images": [
+      {
+        "id": "img-1792527419229-0",
+        "url": "/uploads/1792527419221-hu.jpg",
+        "kind": "main",
+        "alt": "Sherpa Jacket"
+      }
+    ],
+    "fabric": "",
+    "composition": "",
+    "gsm": "",
+    "fit": "",
+    "sizes": "S, M, L",
+    "colors": "Black, White",
+    "sizeOptions": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "season": "",
+    "customization": "",
+    "packaging": "",
+    "moq": "50 pcs",
+    "leadTime": "",
+    "featured": false,
+    "published": true,
+    "sortOrder": 0,
+    "createdAt": "2026-10-20T20:17:54.074Z",
+    "updatedAt": "2026-10-20T20:19:48.115Z"
+  },
+  {
+    "id": "prod-pullover-hoodie",
+    "name": "Pullover Hoodie",
+    "slug": "pullover-hoodie",
+    "category": "tops",
+    "subcategory": "Hoodies",
+    "productCode": "NSM-PULL-001",
+    "shortDescription": "Pullover Hoodie — wholesale ready apparel for brands and exporters.",
+    "description": "Pullover Hoodie crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-pullover-hoodie",
+        "url": "/products/pullover-hoodie-custom-1.png",
+        "alt": "Pullover Hoodie — navy colorblock",
+        "kind": "main"
+      },
+      {
+        "id": "extra-pullover-hoodie-0",
+        "url": "/products/pullover-hoodie-custom-2.png",
+        "alt": "Pullover Hoodie — olive",
+        "kind": "detail"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 1,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-10-20T20:18:28.663Z"
+  },
+  {
+    "id": "prod-zip-up-hoodie",
+    "name": "Zip-Up Hoodie",
+    "slug": "zip-up-hoodie",
+    "category": "tops",
+    "subcategory": "Hoodies",
+    "productCode": "NSM-ZIPU-002",
+    "shortDescription": "Zip-Up Hoodie — wholesale ready apparel for brands and exporters.",
+    "description": "Zip-Up Hoodie crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-zip-up-hoodie",
+        "url": "/products/zip-hoodie-main.png",
+        "alt": "Zip-Up Hoodie — charcoal grey",
+        "kind": "main"
+      },
+      {
+        "id": "extra-zip-up-hoodie-0",
+        "url": "/products/zip-hoodie-custom-5-front.png",
+        "alt": "Zip-Up Hoodie — black front",
+        "kind": "front"
+      },
+      {
+        "id": "extra-zip-up-hoodie-1",
+        "url": "/products/zip-hoodie-custom-5-back.png",
+        "alt": "Zip-Up Hoodie — black back",
+        "kind": "back"
+      },
+      {
+        "id": "extra-zip-up-hoodie-2",
+        "url": "/products/zip-hoodie-custom-1.png",
+        "alt": "Zip-Up Hoodie — maroon",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-zip-up-hoodie-3",
+        "url": "/products/zip-hoodie-custom-4.png",
+        "alt": "Zip-Up Hoodie — off white",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 2,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-25T12:36:18.082Z"
+  },
+  {
+    "id": "prod-oversized-hoodie",
+    "name": "Oversized Hoodie",
+    "slug": "oversized-hoodie",
+    "category": "tops",
+    "subcategory": "Hoodies",
+    "productCode": "NSM-OVER-003",
+    "shortDescription": "Oversized Hoodie — wholesale ready apparel for brands and exporters.",
+    "description": "Oversized Hoodie crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-oversized-hoodie",
+        "url": "/products/oversized-hoodie-custom-1.png",
+        "alt": "Oversized Hoodie — black",
+        "kind": "main"
+      },
+      {
+        "id": "extra-oversized-hoodie-0",
+        "url": "/products/oversized-hoodie-custom-2.png",
+        "alt": "Oversized Hoodie — charcoal",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-oversized-hoodie-1",
+        "url": "/products/oversized-hoodie-custom-3.png",
+        "alt": "Oversized Hoodie — light grey",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Oversized",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 3,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-25T12:46:26.555Z"
+  },
+  {
+    "id": "prod-cropped-hoodie",
+    "name": "Cropped Hoodie",
+    "slug": "cropped-hoodie",
+    "category": "tops",
+    "subcategory": "Hoodies",
+    "productCode": "NSM-CROP-004",
+    "shortDescription": "Cropped Hoodie — wholesale ready apparel for brands and exporters.",
+    "description": "Cropped Hoodie crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-cropped-hoodie",
+        "url": "/products/crop-hoodie-custom-1.png",
+        "alt": "Cropped Hoodie — black",
+        "kind": "main"
+      },
+      {
+        "id": "extra-cropped-hoodie-0",
+        "url": "/products/crop-hoodie-custom-2.png",
+        "alt": "Cropped Hoodie — wrap black",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-cropped-hoodie-1",
+        "url": "/products/crop-hoodie-custom-3.png",
+        "alt": "Cropped Hoodie — heather grey",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-cropped-hoodie-2",
+        "url": "/products/crop-hoodie-custom-4.png",
+        "alt": "Cropped Hoodie — magenta zip",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 4,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-25T12:49:57.189Z"
+  },
+  {
+    "id": "prod-boxy-hoodie",
+    "name": "Boxy Hoodie",
+    "slug": "boxy-hoodie",
+    "category": "tops",
+    "subcategory": "Hoodies",
+    "productCode": "NSM-BOXY-005",
+    "shortDescription": "Boxy Hoodie — wholesale ready apparel for brands and exporters.",
+    "description": "Boxy Hoodie crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-boxy-hoodie",
+        "url": "/products/boxy-hoodie-custom-1.png",
+        "alt": "Boxy Hoodie — dusty rose",
+        "kind": "main"
+      },
+      {
+        "id": "extra-boxy-hoodie-0",
+        "url": "/products/boxy-hoodie-custom-2.png",
+        "alt": "Boxy Hoodie — black",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-boxy-hoodie-1",
+        "url": "/products/boxy-hoodie-custom-3.png",
+        "alt": "Boxy Hoodie — charcoal",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 5,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-25T12:52:40.464Z"
+  },
+  {
+    "id": "prod-heavyweight-hoodie",
+    "name": "Heavyweight Hoodie",
+    "slug": "heavyweight-hoodie",
+    "category": "tops",
+    "subcategory": "Hoodies",
+    "productCode": "NSM-HEAV-006",
+    "shortDescription": "Heavyweight Hoodie — wholesale ready apparel for brands and exporters.",
+    "description": "Heavyweight Hoodie crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-heavyweight-hoodie",
+        "url": "/products/heavy-hoodie-custom-1.png",
+        "alt": "Heavyweight Hoodie — charcoal black sleeves",
+        "kind": "main"
+      },
+      {
+        "id": "extra-heavyweight-hoodie-0",
+        "url": "/products/heavy-hoodie-custom-2.png",
+        "alt": "Heavyweight Hoodie — chocolate brown",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-heavyweight-hoodie-1",
+        "url": "/products/heavy-hoodie-custom-3.png",
+        "alt": "Heavyweight Hoodie — rust zip",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 6,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-25T12:58:45.184Z"
+  },
+  {
+    "id": "prod-lightweight-hoodie",
+    "name": "Lightweight Hoodie",
+    "slug": "lightweight-hoodie",
+    "category": "tops",
+    "subcategory": "Hoodies",
+    "productCode": "NSM-LIGH-007",
+    "shortDescription": "Lightweight Hoodie — wholesale ready apparel for brands and exporters.",
+    "description": "Lightweight Hoodie crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-lightweight-hoodie",
+        "url": "/products/light-hoodie-custom-1.png",
+        "alt": "Lightweight Hoodie — beige zip",
+        "kind": "main"
+      },
+      {
+        "id": "extra-lightweight-hoodie-0",
+        "url": "/products/light-hoodie-custom-2.png",
+        "alt": "Lightweight Hoodie — grey marl zip",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-lightweight-hoodie-1",
+        "url": "/products/light-hoodie-custom-3.png",
+        "alt": "Lightweight Hoodie — slate blue",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-lightweight-hoodie-2",
+        "url": "/products/light-hoodie-custom-4.png",
+        "alt": "Lightweight Hoodie — navy colorblock",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 7,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-25T13:00:48.522Z"
+  },
+  {
+    "id": "prod-graphic-hoodie",
+    "name": "Graphic Hoodie",
+    "slug": "graphic-hoodie",
+    "category": "tops",
+    "subcategory": "Hoodies",
+    "productCode": "NSM-GRAP-008",
+    "shortDescription": "Graphic Hoodie — wholesale ready apparel for brands and exporters.",
+    "description": "Graphic Hoodie crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-graphic-hoodie",
+        "url": "/products/graphic-hoodie-custom-1.png",
+        "alt": "Graphic Hoodie — split face print",
+        "kind": "main"
+      },
+      {
+        "id": "extra-graphic-hoodie-0",
+        "url": "/products/graphic-hoodie-custom-2.png",
+        "alt": "Graphic Hoodie — ink splatter crest",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-graphic-hoodie-1",
+        "url": "/products/graphic-hoodie-custom-3.png",
+        "alt": "Graphic Hoodie — star S graphic",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-graphic-hoodie-2",
+        "url": "/products/graphic-hoodie-custom-4.png",
+        "alt": "Graphic Hoodie — lava tile print",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-graphic-hoodie-3",
+        "url": "/products/graphic-hoodie-custom-5.png",
+        "alt": "Graphic Hoodie — skull graphic",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 8,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-25T13:16:41.231Z"
+  },
+  {
+    "id": "prod-embroidered-hoodie",
+    "name": "Embroidered Hoodie",
+    "slug": "embroidered-hoodie",
+    "category": "tops",
+    "subcategory": "Hoodies",
+    "productCode": "NSM-EMBR-009",
+    "shortDescription": "Embroidered Hoodie — wholesale ready apparel for brands and exporters.",
+    "description": "Embroidered Hoodie crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-embroidered-hoodie",
+        "url": "/products/embroidered-hoodie-custom-1.png",
+        "alt": "Embroidered Hoodie — bird floral maroon",
+        "kind": "main"
+      },
+      {
+        "id": "extra-embroidered-hoodie-0",
+        "url": "/products/embroidered-hoodie-custom-2.png",
+        "alt": "Embroidered Hoodie — floral black zip",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-embroidered-hoodie-1",
+        "url": "/products/embroidered-hoodie-custom-3.png",
+        "alt": "Embroidered Hoodie — insect motifs black",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-embroidered-hoodie-2",
+        "url": "/products/embroidered-hoodie-custom-4.png",
+        "alt": "Embroidered Hoodie — floral cream",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-embroidered-hoodie-3",
+        "url": "/products/embroidered-hoodie-custom-5.png",
+        "alt": "Embroidered Hoodie — cat motifs beige",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 9,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-25T13:18:55.767Z"
+  },
+  {
+    "id": "prod-fleece-hoodie",
+    "name": "Fleece Hoodie",
+    "slug": "fleece-hoodie",
+    "category": "tops",
+    "subcategory": "Hoodies",
+    "productCode": "NSM-FLEE-010",
+    "shortDescription": "Fleece Hoodie — wholesale ready apparel for brands and exporters.",
+    "description": "Fleece Hoodie crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-fleece-hoodie",
+        "url": "/products/fleece-hoodie-custom-1.png",
+        "alt": "Fleece Hoodie — teal waffle zip",
+        "kind": "main"
+      },
+      {
+        "id": "extra-fleece-hoodie-0",
+        "url": "/products/fleece-hoodie-custom-2.png",
+        "alt": "Fleece Hoodie — light blue tech zip",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-fleece-hoodie-1",
+        "url": "/products/fleece-hoodie-custom-3.png",
+        "alt": "Fleece Hoodie — black sherpa lined",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-fleece-hoodie-2",
+        "url": "/products/fleece-hoodie-custom-4.png",
+        "alt": "Fleece Hoodie — terracotta zip",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-fleece-hoodie-3",
+        "url": "/products/fleece-hoodie-custom-5.png",
+        "alt": "Fleece Hoodie — heather grey waffle",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-fleece-hoodie-4",
+        "url": "/products/fleece-hoodie-custom-6.png",
+        "alt": "Fleece Hoodie — olive half-zip sherpa",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 10,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-sweatshirt",
+    "name": "Sweatshirt",
+    "slug": "sweatshirt",
+    "category": "tops",
+    "subcategory": "Sweatshirts",
+    "productCode": "NSM-SWEA-011",
+    "shortDescription": "Sweatshirt — wholesale ready apparel for brands and exporters.",
+    "description": "Sweatshirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-sweatshirt",
+        "url": "/products/sweatshirt-custom-1.png",
+        "alt": "Sweatshirt — black",
+        "kind": "main"
+      },
+      {
+        "id": "extra-sweatshirt-0",
+        "url": "/products/sweatshirt-custom-2.png",
+        "alt": "Sweatshirt — charcoal",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-sweatshirt-1",
+        "url": "/products/sweatshirt-custom-3.png",
+        "alt": "Sweatshirt — heather grey",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-sweatshirt-2",
+        "url": "/products/sweatshirt-custom-4.png",
+        "alt": "Sweatshirt — navy",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 11,
+    "createdAt": "2026-09-25T14:22:14.323Z",
+    "updatedAt": "2026-09-25T14:22:14.323Z"
+  },
+  {
+    "id": "prod-crewneck-sweatshirt",
+    "name": "Crewneck Sweatshirt",
+    "slug": "crewneck-sweatshirt",
+    "category": "tops",
+    "subcategory": "Sweatshirts",
+    "productCode": "NSM-CREW-012",
+    "shortDescription": "Crewneck Sweatshirt — wholesale ready apparel for brands and exporters.",
+    "description": "Crewneck Sweatshirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-crewneck-sweatshirt",
+        "url": "/products/crewneck-sweatshirt-custom-1.png",
+        "alt": "Crewneck Sweatshirt — charcoal sleeve stripe",
+        "kind": "main"
+      },
+      {
+        "id": "extra-crewneck-sweatshirt-0",
+        "url": "/products/crewneck-sweatshirt-custom-2.png",
+        "alt": "Crewneck Sweatshirt — forest green floral A",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-crewneck-sweatshirt-1",
+        "url": "/products/crewneck-sweatshirt-custom-3.png",
+        "alt": "Crewneck Sweatshirt — heather grey logo",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-crewneck-sweatshirt-2",
+        "url": "/products/crewneck-sweatshirt-custom-4.png",
+        "alt": "Crewneck Sweatshirt — navy plain",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-crewneck-sweatshirt-3",
+        "url": "/products/crewneck-sweatshirt-custom-5.png",
+        "alt": "Crewneck Sweatshirt — dusty rose",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 12,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-oversized-sweatshirt",
+    "name": "Oversized Sweatshirt",
+    "slug": "oversized-sweatshirt",
+    "category": "tops",
+    "subcategory": "Sweatshirts",
+    "productCode": "NSM-OVER-013",
+    "shortDescription": "Oversized Sweatshirt — wholesale ready apparel for brands and exporters.",
+    "description": "Oversized Sweatshirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-oversized-sweatshirt",
+        "url": "/products/oversized-sweatshirt-custom-1.png",
+        "alt": "Oversized Sweatshirt — burgundy",
+        "kind": "main"
+      },
+      {
+        "id": "extra-oversized-sweatshirt-0",
+        "url": "/products/oversized-sweatshirt-custom-2.png",
+        "alt": "Oversized Sweatshirt — light blue",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-oversized-sweatshirt-1",
+        "url": "/products/oversized-sweatshirt-custom-3.png",
+        "alt": "Oversized Sweatshirt — washed grey",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Oversized",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 13,
+    "createdAt": "2026-09-25T14:23:39.698Z",
+    "updatedAt": "2026-09-25T14:23:39.698Z"
+  },
+  {
+    "id": "prod-half-zip-sweatshirt",
+    "name": "Half-Zip Sweatshirt",
+    "slug": "half-zip-sweatshirt",
+    "category": "tops",
+    "subcategory": "Sweatshirts",
+    "productCode": "NSM-HALF-014",
+    "shortDescription": "Half-Zip Sweatshirt — wholesale ready apparel for brands and exporters.",
+    "description": "Half-Zip Sweatshirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-half-zip-sweatshirt",
+        "url": "/products/half-zip-sweatshirt-custom-1.png",
+        "alt": "Half-Zip Sweatshirt — black laurel tip",
+        "kind": "main"
+      },
+      {
+        "id": "extra-half-zip-sweatshirt-0",
+        "url": "/products/half-zip-sweatshirt-custom-2.png",
+        "alt": "Half-Zip Sweatshirt — black mock neck",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-half-zip-sweatshirt-1",
+        "url": "/products/half-zip-sweatshirt-custom-3.png",
+        "alt": "Half-Zip Sweatshirt — lavender tech",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-half-zip-sweatshirt-2",
+        "url": "/products/half-zip-sweatshirt-custom-4.png",
+        "alt": "Half-Zip Sweatshirt — navy mock neck",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 14,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-quarter-zip-pullover",
+    "name": "Quarter-Zip Pullover",
+    "slug": "quarter-zip-pullover",
+    "category": "tops",
+    "subcategory": "Sweatshirts",
+    "productCode": "NSM-QUAR-015",
+    "shortDescription": "Quarter-Zip Pullover — wholesale ready apparel for brands and exporters.",
+    "description": "Quarter-Zip Pullover crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-quarter-zip-pullover",
+        "url": "/products/quarter-zip-pullover-custom-1.png",
+        "alt": "Quarter-Zip Pullover — medium blue athletic",
+        "kind": "main"
+      },
+      {
+        "id": "extra-quarter-zip-pullover-0",
+        "url": "/products/quarter-zip-pullover-custom-2.png",
+        "alt": "Quarter-Zip Pullover — ivory cable knit",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-quarter-zip-pullover-1",
+        "url": "/products/quarter-zip-pullover-custom-3.png",
+        "alt": "Quarter-Zip Pullover — cream ribbed",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-quarter-zip-pullover-2",
+        "url": "/products/quarter-zip-pullover-custom-4.png",
+        "alt": "Quarter-Zip Pullover — heather green",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 15,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-long-sleeve-t-shirt",
+    "name": "Long-Sleeve T-Shirt",
+    "slug": "long-sleeve-t-shirt",
+    "category": "tops",
+    "subcategory": "T-Shirts",
+    "productCode": "NSM-LONG-016",
+    "shortDescription": "Long-Sleeve T-Shirt — wholesale ready apparel for brands and exporters.",
+    "description": "Long-Sleeve T-Shirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-long-sleeve-t-shirt",
+        "url": "/products/tee-long-custom-1.png",
+        "alt": "Long-Sleeve T-Shirt — light blue",
+        "kind": "main"
+      },
+      {
+        "id": "extra-long-sleeve-t-shirt-0",
+        "url": "/products/tee-long-custom-2.png",
+        "alt": "Long-Sleeve T-Shirt — navy",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-long-sleeve-t-shirt-1",
+        "url": "/products/tee-long-custom-3.png",
+        "alt": "Long-Sleeve T-Shirt — black",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-long-sleeve-t-shirt-2",
+        "url": "/products/tee-long-custom-4.png",
+        "alt": "Long-Sleeve T-Shirt — mustard",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-long-sleeve-t-shirt-3",
+        "url": "/products/tee-long-custom-5.png",
+        "alt": "Long-Sleeve T-Shirt — dark grey",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 16,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-25T13:07:47.599Z"
+  },
+  {
+    "id": "prod-oversized-t-shirt",
+    "name": "Oversized T-Shirt",
+    "slug": "oversized-t-shirt",
+    "category": "tops",
+    "subcategory": "T-Shirts",
+    "productCode": "NSM-OVER-017",
+    "shortDescription": "Oversized T-Shirt — wholesale ready apparel for brands and exporters.",
+    "description": "Oversized T-Shirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-oversized-t-shirt",
+        "url": "/products/tee-oversized-custom-1.png",
+        "alt": "Oversized T-Shirt — washed tan",
+        "kind": "main"
+      },
+      {
+        "id": "extra-oversized-t-shirt-0",
+        "url": "/products/tee-oversized-custom-2.png",
+        "alt": "Oversized T-Shirt — white",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-oversized-t-shirt-1",
+        "url": "/products/tee-oversized-custom-3.png",
+        "alt": "Oversized T-Shirt — black",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Oversized",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 17,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-25T13:05:55.409Z"
+  },
+  {
+    "id": "prod-boxy-t-shirt",
+    "name": "Boxy T-Shirt",
+    "slug": "boxy-t-shirt",
+    "category": "tops",
+    "subcategory": "T-Shirts",
+    "productCode": "NSM-BOXY-018",
+    "shortDescription": "Boxy T-Shirt — wholesale ready apparel for brands and exporters.",
+    "description": "Boxy T-Shirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-boxy-t-shirt",
+        "url": "/products/boxy-tshirt-custom-1.png",
+        "alt": "Boxy T-Shirt — cream brown stripe",
+        "kind": "main"
+      },
+      {
+        "id": "extra-boxy-t-shirt-0",
+        "url": "/products/boxy-tshirt-custom-2.png",
+        "alt": "Boxy T-Shirt — chocolate brown",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-boxy-t-shirt-1",
+        "url": "/products/boxy-tshirt-custom-3.png",
+        "alt": "Boxy T-Shirt — black BNDS back",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-boxy-t-shirt-2",
+        "url": "/products/boxy-tshirt-custom-4.png",
+        "alt": "Boxy T-Shirt — dusty pink raglan",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 18,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-graphic-t-shirt",
+    "name": "Graphic T-Shirt",
+    "slug": "graphic-t-shirt",
+    "category": "tops",
+    "subcategory": "T-Shirts",
+    "productCode": "NSM-GRAP-019",
+    "shortDescription": "Graphic T-Shirt — wholesale ready apparel for brands and exporters.",
+    "description": "Graphic T-Shirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-graphic-t-shirt",
+        "url": "/products/graphic-tshirt-custom-1.png",
+        "alt": "Graphic T-Shirt — graffiti teddy back",
+        "kind": "main"
+      },
+      {
+        "id": "extra-graphic-t-shirt-0",
+        "url": "/products/graphic-tshirt-custom-2.png",
+        "alt": "Graphic T-Shirt — floral skull print",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-graphic-t-shirt-1",
+        "url": "/products/graphic-tshirt-custom-3.png",
+        "alt": "Graphic T-Shirt — simulation cyan",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-graphic-t-shirt-2",
+        "url": "/products/graphic-tshirt-custom-4.png",
+        "alt": "Graphic T-Shirt — patience portrait",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-graphic-t-shirt-3",
+        "url": "/products/graphic-tshirt-custom-5.png",
+        "alt": "Graphic T-Shirt — athletic chevron",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 19,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-basic-essential-t-shirt",
+    "name": "Basic/Essential T-Shirt",
+    "slug": "basic-essential-t-shirt",
+    "category": "tops",
+    "subcategory": "T-Shirts",
+    "productCode": "NSM-BASI-020",
+    "shortDescription": "Basic/Essential T-Shirt — wholesale ready apparel for brands and exporters.",
+    "description": "Basic/Essential T-Shirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-basic-essential-t-shirt",
+        "url": "/products/basic-tee-custom-1.png",
+        "alt": "Basic/Essential T-Shirt — view 1",
+        "kind": "main"
+      },
+      {
+        "id": "extra-basic-essential-t-shirt-0",
+        "url": "/products/basic-tee-custom-2.png",
+        "alt": "Basic/Essential T-Shirt — view 2",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-basic-essential-t-shirt-1",
+        "url": "/products/basic-tee-custom-3.png",
+        "alt": "Basic/Essential T-Shirt — view 3",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-basic-essential-t-shirt-2",
+        "url": "/products/basic-tee-custom-4.png",
+        "alt": "Basic/Essential T-Shirt — view 4",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-basic-essential-t-shirt-3",
+        "url": "/products/basic-tee-custom-5.png",
+        "alt": "Basic/Essential T-Shirt — view 5",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 20,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-drop-shoulder-t-shirt",
+    "name": "Drop-Shoulder T-Shirt",
+    "slug": "drop-shoulder-t-shirt",
+    "category": "tops",
+    "subcategory": "T-Shirts",
+    "productCode": "NSM-DROP-021",
+    "shortDescription": "Drop-Shoulder T-Shirt — wholesale ready apparel for brands and exporters.",
+    "description": "Drop-Shoulder T-Shirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-drop-shoulder-t-shirt",
+        "url": "/products/drop-shoulder-tee-custom-1.png",
+        "alt": "Drop-Shoulder T-Shirt — view 1",
+        "kind": "main"
+      },
+      {
+        "id": "extra-drop-shoulder-t-shirt-0",
+        "url": "/products/drop-shoulder-tee-custom-2.png",
+        "alt": "Drop-Shoulder T-Shirt — view 2",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-drop-shoulder-t-shirt-1",
+        "url": "/products/drop-shoulder-tee-custom-3.png",
+        "alt": "Drop-Shoulder T-Shirt — view 3",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-drop-shoulder-t-shirt-2",
+        "url": "/products/drop-shoulder-tee-custom-4.png",
+        "alt": "Drop-Shoulder T-Shirt — view 4",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-drop-shoulder-t-shirt-3",
+        "url": "/products/drop-shoulder-tee-custom-5.png",
+        "alt": "Drop-Shoulder T-Shirt — view 5",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 21,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-polo-shirt",
+    "name": "Polo Shirt",
+    "slug": "polo-shirt",
+    "category": "tops",
+    "subcategory": "Shirts",
+    "productCode": "NSM-POLO-022",
+    "shortDescription": "Polo Shirt — wholesale ready apparel for brands and exporters.",
+    "description": "Polo Shirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-polo-shirt",
+        "url": "/products/polo-shirt-custom-1.png",
+        "alt": "Polo Shirt — view 1",
+        "kind": "main"
+      },
+      {
+        "id": "extra-polo-shirt-0",
+        "url": "/products/polo-shirt-custom-2.png",
+        "alt": "Polo Shirt — view 2",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-polo-shirt-1",
+        "url": "/products/polo-shirt-custom-3.png",
+        "alt": "Polo Shirt — view 3",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-polo-shirt-2",
+        "url": "/products/polo-shirt-custom-4.png",
+        "alt": "Polo Shirt — view 4",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 22,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-henley-shirt",
+    "name": "Henley Shirt",
+    "slug": "henley-shirt",
+    "category": "tops",
+    "subcategory": "Shirts",
+    "productCode": "NSM-HENL-023",
+    "shortDescription": "Henley Shirt — wholesale ready apparel for brands and exporters.",
+    "description": "Henley Shirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-henley-shirt",
+        "url": "/products/henley-shirt-custom-1.png",
+        "alt": "Henley Shirt — view 1",
+        "kind": "main"
+      },
+      {
+        "id": "extra-henley-shirt-0",
+        "url": "/products/henley-shirt-custom-2.png",
+        "alt": "Henley Shirt — view 2",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-henley-shirt-1",
+        "url": "/products/henley-shirt-custom-3.png",
+        "alt": "Henley Shirt — view 3",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-henley-shirt-2",
+        "url": "/products/henley-shirt-custom-4.png",
+        "alt": "Henley Shirt — view 4",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 23,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-flannel-shirt",
+    "name": "Flannel Shirt",
+    "slug": "flannel-shirt",
+    "category": "tops",
+    "subcategory": "Shirts",
+    "productCode": "NSM-FLAN-024",
+    "shortDescription": "Flannel Shirt — wholesale ready apparel for brands and exporters.",
+    "description": "Flannel Shirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-flannel-shirt",
+        "url": "/products/flannel-shirt-custom-1.png",
+        "alt": "Flannel Shirt — view 1",
+        "kind": "main"
+      },
+      {
+        "id": "extra-flannel-shirt-0",
+        "url": "/products/flannel-shirt-custom-2.png",
+        "alt": "Flannel Shirt — view 2",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-flannel-shirt-1",
+        "url": "/products/flannel-shirt-custom-3.png",
+        "alt": "Flannel Shirt — view 3",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-flannel-shirt-2",
+        "url": "/products/flannel-shirt-custom-4.png",
+        "alt": "Flannel Shirt — view 4",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-flannel-shirt-3",
+        "url": "/products/flannel-shirt-custom-5.png",
+        "alt": "Flannel Shirt — view 5",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 24,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-overshirt",
+    "name": "Overshirt",
+    "slug": "overshirt",
+    "category": "tops",
+    "subcategory": "Shirts",
+    "productCode": "NSM-OVER-025",
+    "shortDescription": "Overshirt — wholesale ready apparel for brands and exporters.",
+    "description": "Overshirt crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-overshirt",
+        "url": "/products/overshirt-custom-1.png",
+        "alt": "Overshirt — navy utility",
+        "kind": "main"
+      },
+      {
+        "id": "extra-overshirt-0",
+        "url": "/products/overshirt-custom-2.png",
+        "alt": "Overshirt — black coach",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-overshirt-1",
+        "url": "/products/overshirt-custom-3.png",
+        "alt": "Overshirt — navy work",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-overshirt-2",
+        "url": "/products/overshirt-custom-4.png",
+        "alt": "Overshirt — cream snap",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-overshirt-3",
+        "url": "/products/overshirt-custom-5.png",
+        "alt": "Overshirt — navy chore",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 25,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-25T13:10:46.267Z"
+  },
+  {
+    "id": "prod-shacket",
+    "name": "Shacket",
+    "slug": "shacket",
+    "category": "tops",
+    "subcategory": "Shirts",
+    "productCode": "NSM-SHAC-026",
+    "shortDescription": "Shacket — wholesale ready apparel for brands and exporters.",
+    "description": "Shacket crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-shacket",
+        "url": "/products/shacket-custom-1.png",
+        "alt": "Shacket — view 1",
+        "kind": "main"
+      },
+      {
+        "id": "extra-shacket-0",
+        "url": "/products/shacket-custom-2.png",
+        "alt": "Shacket — view 2",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-shacket-1",
+        "url": "/products/shacket-custom-3.png",
+        "alt": "Shacket — view 3",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 26,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-tank-top",
+    "name": "Tank Top",
+    "slug": "tank-top",
+    "category": "tops",
+    "subcategory": "Other Tops",
+    "productCode": "NSM-TANK-027",
+    "shortDescription": "Tank Top — wholesale ready apparel for brands and exporters.",
+    "description": "Tank Top crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-tank-top",
+        "url": "/products/tank-top-custom-1.png",
+        "alt": "Tank Top — view 1",
+        "kind": "main"
+      },
+      {
+        "id": "extra-tank-top-0",
+        "url": "/products/tank-top-custom-2.png",
+        "alt": "Tank Top — view 2",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-tank-top-1",
+        "url": "/products/tank-top-custom-3.png",
+        "alt": "Tank Top — view 3",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-tank-top-2",
+        "url": "/products/tank-top-custom-4.png",
+        "alt": "Tank Top — view 4",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": false,
+    "published": true,
+    "sortOrder": 27,
+    "createdAt": "2026-09-17T15:22:02.523Z",
+    "updatedAt": "2026-09-17T15:41:54.827Z"
+  },
+  {
+    "id": "prod-cargo-set",
+    "name": "Cargo Set",
+    "slug": "cargo-set",
+    "category": "sets",
+    "subcategory": "Cargo Sets",
+    "productCode": "NSM-CARG-001",
+    "shortDescription": "Cargo Set — wholesale ready apparel for brands and exporters.",
+    "description": "Cargo Set crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-cargo-set",
+        "url": "/products/cargo-set-custom-1.png",
+        "alt": "Cargo Set — brown utility",
+        "kind": "main"
+      },
+      {
+        "id": "extra-cargo-set-0",
+        "url": "/products/cargo-set-custom-2.png",
+        "alt": "Cargo Set — grey windbreaker",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-cargo-set-1",
+        "url": "/products/cargo-set-custom-3.png",
+        "alt": "Cargo Set — black athleisure",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-cargo-set-2",
+        "url": "/products/cargo-set-custom-4.png",
+        "alt": "Cargo Set — grey tactical",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 28,
+    "createdAt": "2026-09-25T14:29:57.511Z",
+    "updatedAt": "2026-09-25T14:29:57.511Z"
+  },
+  {
+    "id": "prod-hoodie-jogger-set",
+    "name": "Hoodie + Jogger Set",
+    "slug": "hoodie-jogger-set",
+    "category": "sets",
+    "subcategory": "Casual Sets",
+    "productCode": "NSM-HOOD-002",
+    "shortDescription": "Hoodie + Jogger Set — wholesale ready apparel for brands and exporters.",
+    "description": "Hoodie + Jogger Set crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-hoodie-jogger-set",
+        "url": "/products/hoodie-jogger-set-custom-1.png",
+        "alt": "Hoodie + Jogger Set — black red block",
+        "kind": "main"
+      },
+      {
+        "id": "extra-hoodie-jogger-set-0",
+        "url": "/products/hoodie-jogger-set-custom-2.png",
+        "alt": "Hoodie + Jogger Set — beige colorblock",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-hoodie-jogger-set-1",
+        "url": "/products/hoodie-jogger-set-custom-3.png",
+        "alt": "Hoodie + Jogger Set — cream textured",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-hoodie-jogger-set-2",
+        "url": "/products/hoodie-jogger-set-custom-4.png",
+        "alt": "Hoodie + Jogger Set — black neon zip",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-hoodie-jogger-set-3",
+        "url": "/products/hoodie-jogger-set-custom-5.png",
+        "alt": "Hoodie + Jogger Set — heather grey block",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 29,
+    "createdAt": "2026-09-25T14:31:38.280Z",
+    "updatedAt": "2026-09-25T14:31:38.280Z"
+  },
+  {
+    "id": "prod-lounge-set",
+    "name": "Lounge Set",
+    "slug": "lounge-set",
+    "category": "sets",
+    "subcategory": "Lounge Sets",
+    "productCode": "NSM-LOUN-003",
+    "shortDescription": "Lounge Set — wholesale ready apparel for brands and exporters.",
+    "description": "Lounge Set crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-lounge-set",
+        "url": "/products/lounge-set-custom-1.png",
+        "alt": "Lounge Set — heather grey",
+        "kind": "main"
+      },
+      {
+        "id": "extra-lounge-set-0",
+        "url": "/products/lounge-set-custom-2.png",
+        "alt": "Lounge Set — grey black joggers",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-lounge-set-1",
+        "url": "/products/lounge-set-custom-3.png",
+        "alt": "Lounge Set — dark grey tee",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-lounge-set-2",
+        "url": "/products/lounge-set-custom-4.png",
+        "alt": "Lounge Set — periwinkle pj",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-lounge-set-3",
+        "url": "/products/lounge-set-custom-5.png",
+        "alt": "Lounge Set — waffle navy",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-lounge-set-4",
+        "url": "/products/lounge-set-custom-6.png",
+        "alt": "Lounge Set — black plaid",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 30,
+    "createdAt": "2026-09-25T14:34:49.684Z",
+    "updatedAt": "2026-09-25T14:34:49.684Z"
+  },
+  {
+    "id": "prod-sweatshirt-jogger-set",
+    "name": "Sweatshirt + Jogger Set",
+    "slug": "sweatshirt-jogger-set",
+    "category": "sets",
+    "subcategory": "Casual Sets",
+    "productCode": "NSM-SWEA-004",
+    "shortDescription": "Sweatshirt + Jogger Set — wholesale ready apparel for brands and exporters.",
+    "description": "Sweatshirt + Jogger Set crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-sweatshirt-jogger-set",
+        "url": "/products/sweatshirt-jogger-set-custom-1.png",
+        "alt": "Sweatshirt + Jogger Set — cream simple",
+        "kind": "main"
+      },
+      {
+        "id": "extra-sweatshirt-jogger-set-0",
+        "url": "/products/sweatshirt-jogger-set-custom-2.png",
+        "alt": "Sweatshirt + Jogger Set — camel black block",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-sweatshirt-jogger-set-1",
+        "url": "/products/sweatshirt-jogger-set-custom-3.png",
+        "alt": "Sweatshirt + Jogger Set — teal back",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-sweatshirt-jogger-set-2",
+        "url": "/products/sweatshirt-jogger-set-custom-4.png",
+        "alt": "Sweatshirt + Jogger Set — dusty blue",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-sweatshirt-jogger-set-3",
+        "url": "/products/sweatshirt-jogger-set-custom-5.png",
+        "alt": "Sweatshirt + Jogger Set — grey black logo",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 31,
+    "createdAt": "2026-09-25T14:37:00.230Z",
+    "updatedAt": "2026-09-25T14:37:00.230Z"
+  },
+  {
+    "id": "prod-tracksuit",
+    "name": "Tracksuit",
+    "slug": "tracksuit",
+    "category": "sets",
+    "subcategory": "Tracksuits",
+    "productCode": "NSM-TRAC-005",
+    "shortDescription": "Tracksuit — wholesale ready apparel for brands and exporters.",
+    "description": "Tracksuit crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-tracksuit",
+        "url": "/products/tracksuit-custom-1.png",
+        "alt": "Tracksuit — navy white zip",
+        "kind": "main"
+      },
+      {
+        "id": "extra-tracksuit-0",
+        "url": "/products/tracksuit-custom-2.png",
+        "alt": "Tracksuit — black burgundy",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-tracksuit-1",
+        "url": "/products/tracksuit-custom-3.png",
+        "alt": "Tracksuit — charcoal sports",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-tracksuit-2",
+        "url": "/products/tracksuit-custom-4.png",
+        "alt": "Tracksuit — maroon sports",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-tracksuit-3",
+        "url": "/products/tracksuit-custom-5.png",
+        "alt": "Tracksuit — teal white",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 32,
+    "createdAt": "2026-09-25T14:38:31.884Z",
+    "updatedAt": "2026-09-25T14:38:31.884Z"
+  },
+  {
+    "id": "prod-t-shirt-shorts-set",
+    "name": "T-Shirt + Shorts Set",
+    "slug": "t-shirt-shorts-set",
+    "category": "sets",
+    "subcategory": "Casual Sets",
+    "productCode": "NSM-TSHI-006",
+    "shortDescription": "T-Shirt + Shorts Set — wholesale ready apparel for brands and exporters.",
+    "description": "T-Shirt + Shorts Set crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-t-shirt-shorts-set",
+        "url": "/products/tee-shorts-set-custom-1.png",
+        "alt": "T-Shirt + Shorts Set — green white block",
+        "kind": "main"
+      },
+      {
+        "id": "extra-t-shirt-shorts-set-0",
+        "url": "/products/tee-shorts-set-custom-2.png",
+        "alt": "T-Shirt + Shorts Set — forest green",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-t-shirt-shorts-set-1",
+        "url": "/products/tee-shorts-set-custom-3.png",
+        "alt": "T-Shirt + Shorts Set — slate waffle",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 33,
+    "createdAt": "2026-09-25T14:39:59.345Z",
+    "updatedAt": "2026-09-25T14:39:59.345Z"
+  },
+  {
+    "id": "prod-oversized-co-ord-set",
+    "name": "Oversized Co-ord Set",
+    "slug": "oversized-co-ord-set",
+    "category": "sets",
+    "subcategory": "Co-ord Sets",
+    "productCode": "NSM-OVER-007",
+    "shortDescription": "Oversized Co-ord Set — wholesale ready apparel for brands and exporters.",
+    "description": "Oversized Co-ord Set crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-oversized-co-ord-set",
+        "url": "/products/oversized-coord-set-custom-1.png",
+        "alt": "Oversized Co-ord Set — black grey taupe",
+        "kind": "main"
+      },
+      {
+        "id": "extra-oversized-co-ord-set-0",
+        "url": "/products/oversized-coord-set-custom-2.png",
+        "alt": "Oversized Co-ord Set — dusty blue wash",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-oversized-co-ord-set-1",
+        "url": "/products/oversized-coord-set-custom-3.png",
+        "alt": "Oversized Co-ord Set — brown print shirt",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-oversized-co-ord-set-2",
+        "url": "/products/oversized-coord-set-custom-4.png",
+        "alt": "Oversized Co-ord Set — olive graphic",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Oversized",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 34,
+    "createdAt": "2026-09-25T14:45:41.895Z",
+    "updatedAt": "2026-09-25T14:45:41.895Z"
+  },
+  {
+    "id": "prod-cargo-joggers",
+    "name": "Cargo Joggers",
+    "slug": "cargo-joggers",
+    "category": "bottoms",
+    "subcategory": "Cargo Joggers",
+    "productCode": "NSM-CARG-JOG-001",
+    "shortDescription": "Cargo Joggers — wholesale ready apparel for brands and exporters.",
+    "description": "Cargo Joggers crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-cargo-joggers",
+        "url": "/products/cargo-joggers-custom-1.png",
+        "alt": "Cargo Joggers — sage green",
+        "kind": "main"
+      },
+      {
+        "id": "extra-cargo-joggers-0",
+        "url": "/products/cargo-joggers-custom-2.png",
+        "alt": "Cargo Joggers — olive",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-cargo-joggers-1",
+        "url": "/products/cargo-joggers-custom-3.png",
+        "alt": "Cargo Joggers — charcoal",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-cargo-joggers-2",
+        "url": "/products/cargo-joggers-custom-4.png",
+        "alt": "Cargo Joggers — light blue",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-cargo-joggers-3",
+        "url": "/products/cargo-joggers-custom-5.png",
+        "alt": "Cargo Joggers — black",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-cargo-joggers-4",
+        "url": "/products/cargo-joggers-custom-6.png",
+        "alt": "Cargo Joggers — tan",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 35,
+    "createdAt": "2026-09-25T15:52:56.562Z",
+    "updatedAt": "2026-09-25T15:52:56.562Z"
+  },
+  {
+    "id": "prod-basketball-shorts",
+    "name": "Basketball shorts",
+    "slug": "basketball-shorts",
+    "category": "bottoms",
+    "subcategory": "Basketball shorts",
+    "productCode": "NSM-BASK-001",
+    "shortDescription": "Basketball shorts — wholesale ready apparel for brands and exporters.",
+    "description": "Basketball shorts crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-basketball-shorts",
+        "url": "/products/basketball-shorts-custom-1.png",
+        "alt": "Basketball shorts — white red trim",
+        "kind": "main"
+      },
+      {
+        "id": "extra-basketball-shorts-0",
+        "url": "/products/basketball-shorts-custom-2.png",
+        "alt": "Basketball shorts — red yellow stripe",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-basketball-shorts-1",
+        "url": "/products/basketball-shorts-custom-3.png",
+        "alt": "Basketball shorts — white mountain graphic",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-basketball-shorts-2",
+        "url": "/products/basketball-shorts-custom-4.png",
+        "alt": "Basketball shorts — navy Michigan",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-basketball-shorts-3",
+        "url": "/products/basketball-shorts-custom-5.png",
+        "alt": "Basketball shorts — orange Tennessee",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 36,
+    "createdAt": "2026-09-25T15:56:13.691Z",
+    "updatedAt": "2026-09-25T15:56:13.691Z"
+  },
+  {
+    "id": "prod-cargo-pants",
+    "name": "Cargo Pants",
+    "slug": "cargo-pants",
+    "category": "bottoms",
+    "subcategory": "Cargo Pants",
+    "productCode": "NSM-CARG-PNT-001",
+    "shortDescription": "Cargo Pants — wholesale ready apparel for brands and exporters.",
+    "description": "Cargo Pants crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-cargo-pants",
+        "url": "/products/cargo-pants-custom-1.png",
+        "alt": "Cargo Pants — camel",
+        "kind": "main"
+      },
+      {
+        "id": "extra-cargo-pants-0",
+        "url": "/products/cargo-pants-custom-2.png",
+        "alt": "Cargo Pants — dark grey tactical",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-cargo-pants-1",
+        "url": "/products/cargo-pants-custom-3.png",
+        "alt": "Cargo Pants — olive straight",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-cargo-pants-2",
+        "url": "/products/cargo-pants-custom-4.png",
+        "alt": "Cargo Pants — olive multi-pocket",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-cargo-pants-3",
+        "url": "/products/cargo-pants-custom-5.png",
+        "alt": "Cargo Pants — khaki baggy",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 37,
+    "createdAt": "2026-09-25T15:57:55.993Z",
+    "updatedAt": "2026-09-25T15:57:55.993Z"
+  },
+  {
+    "id": "prod-cargo-shorts",
+    "name": "cargo shorts",
+    "slug": "cargo-shorts",
+    "category": "bottoms",
+    "subcategory": "cargo shorts",
+    "productCode": "NSM-CARG-SHT-001",
+    "shortDescription": "cargo shorts — wholesale ready apparel for brands and exporters.",
+    "description": "cargo shorts crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-cargo-shorts",
+        "url": "/products/cargo-shorts-custom-1.png",
+        "alt": "cargo shorts — multi color set",
+        "kind": "main"
+      },
+      {
+        "id": "extra-cargo-shorts-0",
+        "url": "/products/cargo-shorts-custom-2.png",
+        "alt": "cargo shorts — charcoal grey",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-cargo-shorts-1",
+        "url": "/products/cargo-shorts-custom-3.png",
+        "alt": "cargo shorts — olive",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-cargo-shorts-2",
+        "url": "/products/cargo-shorts-custom-4.png",
+        "alt": "cargo shorts — black",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-cargo-shorts-3",
+        "url": "/products/cargo-shorts-custom-5.png",
+        "alt": "cargo shorts — khaki back",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 38,
+    "createdAt": "2026-09-25T15:59:37.896Z",
+    "updatedAt": "2026-09-25T15:59:37.896Z"
+  },
+  {
+    "id": "prod-denim-shorts",
+    "name": "denim shorts",
+    "slug": "denim-shorts",
+    "category": "bottoms",
+    "subcategory": "denim shorts",
+    "productCode": "NSM-DENI-001",
+    "shortDescription": "denim shorts — wholesale ready apparel for brands and exporters.",
+    "description": "denim shorts crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-denim-shorts",
+        "url": "/products/denim-shorts-custom-1.png",
+        "alt": "denim shorts — light wash cargo",
+        "kind": "main"
+      },
+      {
+        "id": "extra-denim-shorts-0",
+        "url": "/products/denim-shorts-custom-2.png",
+        "alt": "denim shorts — dark wash cargo",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-denim-shorts-1",
+        "url": "/products/denim-shorts-custom-3.png",
+        "alt": "denim shorts — light wash classic",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-denim-shorts-2",
+        "url": "/products/denim-shorts-custom-4.png",
+        "alt": "denim shorts — dark indigo",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-denim-shorts-3",
+        "url": "/products/denim-shorts-custom-5.png",
+        "alt": "denim shorts — light wash slim",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 39,
+    "createdAt": "2026-09-25T16:01:57.447Z",
+    "updatedAt": "2026-09-25T16:01:57.447Z"
+  },
+  {
+    "id": "prod-jogger-pants",
+    "name": "Jogger Pants",
+    "slug": "jogger-pants",
+    "category": "bottoms",
+    "subcategory": "Jogger Pants",
+    "productCode": "NSM-JOGG-001",
+    "shortDescription": "Jogger Pants — wholesale ready apparel for brands and exporters.",
+    "description": "Jogger Pants crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-jogger-pants",
+        "url": "/products/jogger-pants-custom-1.png",
+        "alt": "Jogger Pants — black Y-3 back",
+        "kind": "main"
+      },
+      {
+        "id": "extra-jogger-pants-0",
+        "url": "/products/jogger-pants-custom-2.png",
+        "alt": "Jogger Pants — black athletic",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-jogger-pants-1",
+        "url": "/products/jogger-pants-custom-3.png",
+        "alt": "Jogger Pants — black fleece",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-jogger-pants-2",
+        "url": "/products/jogger-pants-custom-4.png",
+        "alt": "Jogger Pants — black track",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 40,
+    "createdAt": "2026-09-25T16:03:21.673Z",
+    "updatedAt": "2026-09-25T16:03:21.673Z"
+  },
+  {
+    "id": "prod-lounge-pants",
+    "name": "Lounge Pants",
+    "slug": "lounge-pants",
+    "category": "bottoms",
+    "subcategory": "Lounge Pants",
+    "productCode": "NSM-LOUN-001",
+    "shortDescription": "Lounge Pants — wholesale ready apparel for brands and exporters.",
+    "description": "Lounge Pants crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-lounge-pants",
+        "url": "/products/lounge-pants-custom-1.png",
+        "alt": "Lounge Pants — cream wide leg",
+        "kind": "main"
+      },
+      {
+        "id": "extra-lounge-pants-0",
+        "url": "/products/lounge-pants-custom-2.png",
+        "alt": "Lounge Pants — navy track",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-lounge-pants-1",
+        "url": "/products/lounge-pants-custom-3.png",
+        "alt": "Lounge Pants — black red plaid",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 41,
+    "createdAt": "2026-09-25T16:09:15.493Z",
+    "updatedAt": "2026-09-25T16:09:15.493Z"
+  },
+  {
+    "id": "prod-parachute-pants",
+    "name": "Parachute Pants",
+    "slug": "parachute-pants",
+    "category": "bottoms",
+    "subcategory": "Parachute Pants",
+    "productCode": "NSM-PARA-001",
+    "shortDescription": "Parachute Pants — wholesale ready apparel for brands and exporters.",
+    "description": "Parachute Pants crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-parachute-pants",
+        "url": "/products/parachute-pants-custom-1.png",
+        "alt": "Parachute Pants — khaki cargo",
+        "kind": "main"
+      },
+      {
+        "id": "extra-parachute-pants-0",
+        "url": "/products/parachute-pants-custom-2.png",
+        "alt": "Parachute Pants — beige belt",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-parachute-pants-1",
+        "url": "/products/parachute-pants-custom-3.png",
+        "alt": "Parachute Pants — tan gathered",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-parachute-pants-2",
+        "url": "/products/parachute-pants-custom-4.png",
+        "alt": "Parachute Pants — cream back",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-parachute-pants-3",
+        "url": "/products/parachute-pants-custom-5.png",
+        "alt": "Parachute Pants — taupe balloon",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 42,
+    "createdAt": "2026-09-25T16:10:52.633Z",
+    "updatedAt": "2026-09-25T16:10:52.633Z"
+  },
+  {
+    "id": "prod-shorts",
+    "name": "shorts",
+    "slug": "shorts",
+    "category": "bottoms",
+    "subcategory": "shorts",
+    "productCode": "NSM-SHOR-001",
+    "shortDescription": "shorts — wholesale ready apparel for brands and exporters.",
+    "description": "shorts crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-shorts",
+        "url": "/products/shorts-custom-1.png",
+        "alt": "shorts — black athletic",
+        "kind": "main"
+      },
+      {
+        "id": "extra-shorts-0",
+        "url": "/products/shorts-custom-2.png",
+        "alt": "shorts — charcoal chino",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-shorts-1",
+        "url": "/products/shorts-custom-3.png",
+        "alt": "shorts — slate blue",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-shorts-2",
+        "url": "/products/shorts-custom-4.png",
+        "alt": "shorts — dark grey lounge",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 43,
+    "createdAt": "2026-09-25T16:12:17.447Z",
+    "updatedAt": "2026-09-25T16:12:17.447Z"
+  },
+  {
+    "id": "prod-straight-leg-pants",
+    "name": "straight leg pants",
+    "slug": "straight-leg-pants",
+    "category": "bottoms",
+    "subcategory": "straight leg pants",
+    "productCode": "NSM-STRA-001",
+    "shortDescription": "straight leg pants — wholesale ready apparel for brands and exporters.",
+    "description": "straight leg pants crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-straight-leg-pants",
+        "url": "/products/straight-leg-pants-custom-1.png",
+        "alt": "straight leg pants — black dress",
+        "kind": "main"
+      },
+      {
+        "id": "extra-straight-leg-pants-0",
+        "url": "/products/straight-leg-pants-custom-2.png",
+        "alt": "straight leg pants — heather grey",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-straight-leg-pants-1",
+        "url": "/products/straight-leg-pants-custom-3.png",
+        "alt": "straight leg pants — white",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 44,
+    "createdAt": "2026-09-25T16:16:00.953Z",
+    "updatedAt": "2026-09-25T16:16:00.953Z"
+  },
+  {
+    "id": "prod-sweat-pants",
+    "name": "Sweat pants",
+    "slug": "sweat-pants",
+    "category": "bottoms",
+    "subcategory": "Sweat pants",
+    "productCode": "NSM-SWEA-001",
+    "shortDescription": "Sweat pants — wholesale ready apparel for brands and exporters.",
+    "description": "Sweat pants crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-sweat-pants",
+        "url": "/products/sweat-pants-custom-1.png",
+        "alt": "Sweat pants — light grey wide",
+        "kind": "main"
+      },
+      {
+        "id": "extra-sweat-pants-0",
+        "url": "/products/sweat-pants-custom-2.png",
+        "alt": "Sweat pants — grey NORMS",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-sweat-pants-1",
+        "url": "/products/sweat-pants-custom-3.png",
+        "alt": "Sweat pants — washed grey cuffed",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 45,
+    "createdAt": "2026-09-25T16:18:59.115Z",
+    "updatedAt": "2026-09-25T16:20:32.870Z"
+  },
+  {
+    "id": "prod-sweat-shorts",
+    "name": "sweat shorts",
+    "slug": "sweat-shorts",
+    "category": "bottoms",
+    "subcategory": "sweat shorts",
+    "productCode": "NSM-SWEA-SHT-001",
+    "shortDescription": "sweat shorts — wholesale ready apparel for brands and exporters.",
+    "description": "sweat shorts crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-sweat-shorts",
+        "url": "/products/sweat-shorts-custom-1.png",
+        "alt": "sweat shorts — light grey marle",
+        "kind": "main"
+      },
+      {
+        "id": "extra-sweat-shorts-0",
+        "url": "/products/sweat-shorts-custom-2.png",
+        "alt": "sweat shorts — dark grey back",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-sweat-shorts-1",
+        "url": "/products/sweat-shorts-custom-3.png",
+        "alt": "sweat shorts — navy charcoal black",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-sweat-shorts-2",
+        "url": "/products/sweat-shorts-custom-4.png",
+        "alt": "sweat shorts — beige",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-sweat-shorts-3",
+        "url": "/products/sweat-shorts-custom-5.png",
+        "alt": "sweat shorts — mustard textured",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 46,
+    "createdAt": "2026-09-25T16:22:09.588Z",
+    "updatedAt": "2026-09-25T16:22:09.588Z"
+  },
+  {
+    "id": "prod-wide-legs-pants",
+    "name": "wide legs pants",
+    "slug": "wide-legs-pants",
+    "category": "bottoms",
+    "subcategory": "wide legs pants",
+    "productCode": "NSM-WIDE-001",
+    "shortDescription": "wide legs pants — wholesale ready apparel for brands and exporters.",
+    "description": "wide legs pants crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-wide-legs-pants",
+        "url": "/products/wide-legs-pants-custom-1.png",
+        "alt": "wide legs pants — olive",
+        "kind": "main"
+      },
+      {
+        "id": "extra-wide-legs-pants-0",
+        "url": "/products/wide-legs-pants-custom-2.png",
+        "alt": "wide legs pants — black",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-wide-legs-pants-1",
+        "url": "/products/wide-legs-pants-custom-3.png",
+        "alt": "wide legs pants — taupe",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-wide-legs-pants-2",
+        "url": "/products/wide-legs-pants-custom-4.png",
+        "alt": "wide legs pants — ivory",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 47,
+    "createdAt": "2026-09-25T16:23:50.847Z",
+    "updatedAt": "2026-09-25T16:23:50.847Z"
+  },
+  {
+    "id": "prod-bomber-jackets",
+    "name": "Bomber jackets",
+    "slug": "bomber-jackets",
+    "category": "jackets-outerwear",
+    "subcategory": "Bomber jackets",
+    "productCode": "NSM-BOMB-001",
+    "shortDescription": "Bomber jackets — wholesale ready apparel for brands and exporters.",
+    "description": "Bomber jackets crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-bomber-jackets",
+        "url": "/products/bomber-jackets-custom-1.png",
+        "alt": "Bomber jackets — olive CP",
+        "kind": "main"
+      },
+      {
+        "id": "extra-bomber-jackets-0",
+        "url": "/products/bomber-jackets-custom-2.png",
+        "alt": "Bomber jackets — olive Saint Laurent",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-bomber-jackets-1",
+        "url": "/products/bomber-jackets-custom-3.png",
+        "alt": "Bomber jackets — olive MA-1",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-bomber-jackets-2",
+        "url": "/products/bomber-jackets-custom-4.png",
+        "alt": "Bomber jackets — olive wool",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-bomber-jackets-3",
+        "url": "/products/bomber-jackets-custom-5.png",
+        "alt": "Bomber jackets — monogram tan",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 48,
+    "createdAt": "2026-09-25T16:30:17.558Z",
+    "updatedAt": "2026-09-25T16:30:17.558Z"
+  },
+  {
+    "id": "prod-coach-jacket",
+    "name": "Coach jacket",
+    "slug": "coach-jacket",
+    "category": "jackets-outerwear",
+    "subcategory": "Coach jacket",
+    "productCode": "NSM-COAC-001",
+    "shortDescription": "Coach jacket — wholesale ready apparel for brands and exporters.",
+    "description": "Coach jacket crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-coach-jacket",
+        "url": "/products/coach-jacket-custom-1.png",
+        "alt": "Coach jacket — quilted monogram",
+        "kind": "main"
+      },
+      {
+        "id": "extra-coach-jacket-0",
+        "url": "/products/coach-jacket-custom-2.png",
+        "alt": "Coach jacket — teal",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-coach-jacket-1",
+        "url": "/products/coach-jacket-custom-3.png",
+        "alt": "Coach jacket — black hooded puffer",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-coach-jacket-2",
+        "url": "/products/coach-jacket-custom-4.png",
+        "alt": "Coach jacket — navy varsity",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-coach-jacket-3",
+        "url": "/products/coach-jacket-custom-5.png",
+        "alt": "Coach jacket — blue plaid hood",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 49,
+    "createdAt": "2026-09-25T16:32:02.770Z",
+    "updatedAt": "2026-09-25T16:32:02.770Z"
+  },
+  {
+    "id": "prod-denim-jacket",
+    "name": "denim jacket",
+    "slug": "denim-jacket",
+    "category": "jackets-outerwear",
+    "subcategory": "denim jacket",
+    "productCode": "NSM-DENI-JKT-001",
+    "shortDescription": "denim jacket — wholesale ready apparel for brands and exporters.",
+    "description": "denim jacket crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-denim-jacket",
+        "url": "/products/denim-jacket-custom-1.png",
+        "alt": "denim jacket — dark wash distressed",
+        "kind": "main"
+      },
+      {
+        "id": "extra-denim-jacket-0",
+        "url": "/products/denim-jacket-custom-2.png",
+        "alt": "denim jacket — medium blue",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-denim-jacket-1",
+        "url": "/products/denim-jacket-custom-3.png",
+        "alt": "denim jacket — black wash Diesel",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-denim-jacket-2",
+        "url": "/products/denim-jacket-custom-4.png",
+        "alt": "denim jacket — dark zip trucker",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-denim-jacket-3",
+        "url": "/products/denim-jacket-custom-5.png",
+        "alt": "denim jacket — olive tint wash",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 50,
+    "createdAt": "2026-09-25T16:33:36.584Z",
+    "updatedAt": "2026-09-25T16:33:36.584Z"
+  },
+  {
+    "id": "prod-fleece-jacket",
+    "name": "Fleece jacket",
+    "slug": "fleece-jacket",
+    "category": "jackets-outerwear",
+    "subcategory": "Fleece jacket",
+    "productCode": "NSM-FLEE-001",
+    "shortDescription": "Fleece jacket — wholesale ready apparel for brands and exporters.",
+    "description": "Fleece jacket crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-fleece-jacket",
+        "url": "/products/fleece-jacket-custom-1.png",
+        "alt": "Fleece jacket — cream blue Patagonia",
+        "kind": "main"
+      },
+      {
+        "id": "extra-fleece-jacket-0",
+        "url": "/products/fleece-jacket-custom-2.png",
+        "alt": "Fleece jacket — olive quilt yoke",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-fleece-jacket-1",
+        "url": "/products/fleece-jacket-custom-3.png",
+        "alt": "Fleece jacket — brown hooded",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-fleece-jacket-2",
+        "url": "/products/fleece-jacket-custom-4.png",
+        "alt": "Fleece jacket — navy LL Bean",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-fleece-jacket-3",
+        "url": "/products/fleece-jacket-custom-5.png",
+        "alt": "Fleece jacket — mustard Element",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 51,
+    "createdAt": "2026-09-25T16:37:23.964Z",
+    "updatedAt": "2026-09-25T16:37:23.964Z"
+  },
+  {
+    "id": "prod-lightweight-jacket",
+    "name": "Lightweight jacket",
+    "slug": "lightweight-jacket",
+    "category": "jackets-outerwear",
+    "subcategory": "Lightweight jacket",
+    "productCode": "NSM-LIGH-001",
+    "shortDescription": "Lightweight jacket — wholesale ready apparel for brands and exporters.",
+    "description": "Lightweight jacket crafted for comfort and bulk production. Choose size, color and quantity, then send your order inquiry. Custom branding and packaging available on request.",
+    "images": [
+      {
+        "id": "main-lightweight-jacket",
+        "url": "/products/lightweight-jacket-custom-1.png",
+        "alt": "Lightweight jacket — view 1",
+        "kind": "main"
+      },
+      {
+        "id": "extra-lightweight-jacket-0",
+        "url": "/products/lightweight-jacket-custom-2.png",
+        "alt": "Lightweight jacket — view 2",
+        "kind": "detail"
+      },
+      {
+        "id": "extra-lightweight-jacket-1",
+        "url": "/products/lightweight-jacket-custom-3.png",
+        "alt": "Lightweight jacket — view 3",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-lightweight-jacket-2",
+        "url": "/products/lightweight-jacket-custom-4.png",
+        "alt": "Lightweight jacket — view 4",
+        "kind": "additional"
+      },
+      {
+        "id": "extra-lightweight-jacket-3",
+        "url": "/products/lightweight-jacket-custom-5.png",
+        "alt": "Lightweight jacket — view 5",
+        "kind": "additional"
+      }
+    ],
+    "fabric": "Available on request",
+    "composition": "Available on request",
+    "gsm": "Available on request",
+    "fit": "Regular",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "All season",
+    "customization": "Private label, print, embroidery available on request",
+    "packaging": "Bulk export packaging available on request",
+    "moq": "50 pcs",
+    "leadTime": "Available on request",
+    "featured": true,
+    "published": true,
+    "sortOrder": 52,
+    "createdAt": "2026-09-25T16:39:49.414Z",
+    "updatedAt": "2026-09-25T16:39:49.414Z"
+  }
+]

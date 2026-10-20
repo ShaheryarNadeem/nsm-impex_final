@@ -1,0 +1,17 @@
+[
+  {
+    "id": "inq-1792529677524",
+    "name": "John",
+    "email": "john@shop.com",
+    "company": "John_Shop",
+    "phone": "1561351351351053135",
+    "country": "Canada",
+    "product": "Haseeb",
+    "productCode": "Dev",
+    "quantity": "10",
+    "size": "M, L, XL",
+    "color": "Different",
+    "message": "Please get back to me",
+    "createdAt": "2026-10-20T20:54:37.525Z"
+  }
+]
