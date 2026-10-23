@@ -1,44 +1,157 @@
 import { promises as fs } from 'fs'
 import path from 'path'
 import { NextRequest, NextResponse } from 'next/server'
-import { isSupabaseConfigured, supabase } from '@/lib/supabase'
+import { revalidatePath } from 'next/cache'
+import { isSupabaseConfigured, supabase, uploadImageToSupabase } from '@/lib/supabase'
 import { verifyAdminAccess } from '@/lib/supabase/server'
 import type { Inquiry } from '@/lib/products/types'
 
 const DATA_DIR = path.join(process.cwd(), 'data')
 const INQUIRIES_PATH = path.join(DATA_DIR, 'inquiries.json')
+const UPLOAD_DIR = path.join(process.cwd(), 'public', 'uploads')
+
+function sanitizeFileName(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9._-]+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '')
+}
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json().catch(() => ({}))
-    const name = String(body?.name || '').trim()
-    const email = String(body?.email || '').trim()
+    let name = ''
+    let email = ''
+    let phone = ''
+    let company = ''
+    let country = ''
+    let product = ''
+    let productCode = ''
+    let quantity = ''
+    let size = ''
+    let color = ''
+    let message = ''
+    let attachmentUrl = ''
 
-    if (!name || !email) {
-      return NextResponse.json({ error: 'Name and email are required' }, { status: 400 })
+    const contentType = req.headers.get('content-type') || ''
+
+    if (contentType.includes('multipart/form-data')) {
+      const form = await req.formData()
+      name = String(form.get('name') || '').trim()
+      email = String(form.get('email') || '').trim()
+      phone = String(form.get('phone') || '').trim()
+      company = String(form.get('company') || '').trim()
+      country = String(form.get('country') || '').trim()
+      product = String(form.get('product') || '').trim()
+      productCode = String(form.get('productCode') || '').trim()
+      quantity = String(form.get('quantity') || '').trim()
+      size = String(form.get('size') || '').trim()
+      color = String(form.get('color') || '').trim()
+      message = String(form.get('message') || '').trim()
+
+      const file = form.get('file')
+      if (file && file instanceof File && file.size > 0) {
+        // Max 10MB
+        if (file.size > 10 * 1024 * 1024) {
+          return NextResponse.json({ error: 'Attached file exceeds the 10MB limit.' }, { status: 400 })
+        }
+
+        const ALLOWED_MIME_TYPES = new Set([
+          'image/jpeg',
+          'image/png',
+          'image/webp',
+          'image/gif',
+          'application/pdf',
+        ])
+        if (!ALLOWED_MIME_TYPES.has(file.type.toLowerCase())) {
+          return NextResponse.json(
+            { error: 'Invalid file format. Only PNG, JPG, WEBP, and PDF files are allowed.' },
+            { status: 400 }
+          )
+        }
+
+        const buffer = Buffer.from(await file.arrayBuffer())
+        const cleanName = sanitizeFileName(file.name) || 'attachment'
+        const filename = `${Date.now()}-${cleanName}`
+
+        if (isSupabaseConfigured) {
+          const publicUrl = await uploadImageToSupabase(filename, buffer, file.type, 'product-images')
+          if (publicUrl) {
+            attachmentUrl = publicUrl
+          }
+        }
+
+        if (!attachmentUrl) {
+          try {
+            await fs.mkdir(UPLOAD_DIR, { recursive: true })
+            await fs.writeFile(path.join(UPLOAD_DIR, filename), buffer)
+            attachmentUrl = `/uploads/${filename}`
+          } catch (fsErr) {
+            console.warn('Could not write attachment to local disk:', fsErr)
+          }
+        }
+      }
+    } else {
+      const body = await req.json().catch(() => ({}))
+      name = String(body?.name || '').trim()
+      email = String(body?.email || '').trim()
+      phone = String(body?.phone || '').trim()
+      company = String(body?.company || '').trim()
+      country = String(body?.country || '').trim()
+      product = String(body?.product || '').trim()
+      productCode = String(body?.productCode || '').trim()
+      quantity = String(body?.quantity || '').trim()
+      size = String(body?.size || '').trim()
+      color = String(body?.color || '').trim()
+      message = String(body?.message || '').trim()
+      attachmentUrl = String(body?.attachmentUrl || '').trim()
     }
 
-    // Clean payload (exclude empty/dummy file objects)
-    const cleanData = { ...body }
-    delete cleanData.file
+    // 1. Strict Validation
+    if (!name || name.length < 2) {
+      return NextResponse.json(
+        { error: 'Please enter your full name (minimum 2 characters).' },
+        { status: 400 }
+      )
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    if (!email || !emailRegex.test(email)) {
+      return NextResponse.json(
+        { error: 'Please enter a valid business email address (e.g. name@company.com).' },
+        { status: 400 }
+      )
+    }
+
+    if (phone) {
+      const digitsOnly = phone.replace(/[^0-9]/g, '')
+      const phoneRegex = /^\+?[0-9\s\-()]{7,20}$/
+      if (digitsOnly.length < 7 || digitsOnly.length > 16 || !phoneRegex.test(phone)) {
+        return NextResponse.json(
+          { error: 'Please enter a valid phone or WhatsApp number (minimum 7 digits, e.g. +1 555 123 4567).' },
+          { status: 400 }
+        )
+      }
+    }
 
     const inquiry: Inquiry = {
       id: `inq-${Date.now()}`,
       name,
       email,
-      company: cleanData.company ? String(cleanData.company).trim() : undefined,
-      phone: cleanData.phone ? String(cleanData.phone).trim() : undefined,
-      country: cleanData.country ? String(cleanData.country).trim() : undefined,
-      product: cleanData.product ? String(cleanData.product).trim() : undefined,
-      productCode: cleanData.productCode ? String(cleanData.productCode).trim() : undefined,
-      quantity: cleanData.quantity ? String(cleanData.quantity).trim() : undefined,
-      size: cleanData.size ? String(cleanData.size).trim() : undefined,
-      color: cleanData.color ? String(cleanData.color).trim() : undefined,
-      message: cleanData.message ? String(cleanData.message).trim() : undefined,
+      company: company || undefined,
+      phone: phone || undefined,
+      country: country || undefined,
+      product: product || undefined,
+      productCode: productCode || undefined,
+      quantity: quantity || undefined,
+      size: size || undefined,
+      color: color || undefined,
+      message: message || undefined,
+      attachmentUrl: attachmentUrl || undefined,
       createdAt: new Date().toISOString(),
     }
 
-    // 1. Save to Supabase Cloud if configured
+    // 2. Save to Supabase Cloud if configured
     if (isSupabaseConfigured && supabase) {
       try {
         await supabase.from('inquiries').insert({
@@ -54,6 +167,7 @@ export async function POST(req: NextRequest) {
           size: inquiry.size || null,
           color: inquiry.color || null,
           message: inquiry.message || null,
+          attachment_url: inquiry.attachmentUrl || null,
           created_at: inquiry.createdAt,
         })
       } catch (dbErr) {
@@ -61,7 +175,7 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    // 2. Local fallback / backup
+    // 3. Local fallback / backup
     try {
       let list: Inquiry[] = []
       try {
@@ -74,9 +188,11 @@ export async function POST(req: NextRequest) {
       await fs.mkdir(DATA_DIR, { recursive: true })
       await fs.writeFile(INQUIRIES_PATH, JSON.stringify(list, null, 2), 'utf8')
     } catch (fsErr) {
-      // In serverless / read-only environment, local disk write failure is expected
-      console.warn('Local inquiry backup skipped (serverless environment):', fsErr)
+      console.warn('Local inquiry backup skipped:', fsErr)
     }
+
+    revalidatePath('/admin')
+    revalidatePath('/admin/inquiries')
 
     return NextResponse.json({ ok: true, inquiry }, { status: 201 })
   } catch (err) {
@@ -117,6 +233,7 @@ export async function GET(req: NextRequest) {
           size: row.size ? String(row.size) : undefined,
           color: row.color ? String(row.color) : undefined,
           message: row.message ? String(row.message) : undefined,
+          attachmentUrl: row.attachment_url ? String(row.attachment_url) : undefined,
           createdAt: String(row.created_at),
         }))
         return NextResponse.json(mapped)
@@ -169,6 +286,9 @@ export async function DELETE(req: NextRequest) {
   } catch {
     // Local file missing or read-only host
   }
+
+  revalidatePath('/admin')
+  revalidatePath('/admin/inquiries')
 
   return NextResponse.json({ ok: true, message: `Inquiry ${id} deleted` })
 }

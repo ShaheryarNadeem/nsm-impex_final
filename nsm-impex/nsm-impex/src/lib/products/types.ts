@@ -67,6 +67,7 @@ export type Inquiry = {
   size?: string
   color?: string
   message?: string
+  attachmentUrl?: string
   createdAt: string
 }
 

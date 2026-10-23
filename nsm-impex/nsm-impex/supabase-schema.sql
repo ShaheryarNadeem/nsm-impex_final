@@ -258,6 +258,7 @@ CREATE TABLE IF NOT EXISTS public.inquiries (
     size TEXT,
     color TEXT,
     message TEXT,
+    attachment_url TEXT,
     created_at TIMESTAMPTZ DEFAULT NOW()
 );
 

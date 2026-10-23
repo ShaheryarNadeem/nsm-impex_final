@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { revalidatePath } from 'next/cache'
 import {
   getCategoryBySlug,
   upsertCategory,
@@ -40,12 +41,20 @@ export async function PUT(
     if (body.action === 'add-sub' && body.subcategory) {
       const updated = await addSubcategory(slug, body.subcategory)
       if (!updated) return NextResponse.json({ error: 'Category not found' }, { status: 404 })
+      revalidatePath('/admin')
+      revalidatePath('/admin/categories')
+      revalidatePath('/products')
+      revalidatePath('/')
       return NextResponse.json(updated)
     }
 
     if (body.action === 'remove-sub' && body.subcategory) {
       const updated = await removeSubcategory(slug, body.subcategory)
       if (!updated) return NextResponse.json({ error: 'Category not found' }, { status: 404 })
+      revalidatePath('/admin')
+      revalidatePath('/admin/categories')
+      revalidatePath('/products')
+      revalidatePath('/')
       return NextResponse.json(updated)
     }
 
@@ -57,6 +66,11 @@ export async function PUT(
       image: body.image,
       subcategories: body.subcategories,
     })
+
+    revalidatePath('/admin')
+    revalidatePath('/admin/categories')
+    revalidatePath('/products')
+    revalidatePath('/')
 
     return NextResponse.json(updated)
   } catch (err) {
@@ -83,6 +97,12 @@ export async function DELETE(
     if (!deleted) {
       return NextResponse.json({ error: 'Category not found or already deleted' }, { status: 404 })
     }
+
+    revalidatePath('/admin')
+    revalidatePath('/admin/categories')
+    revalidatePath('/products')
+    revalidatePath('/')
+
     return NextResponse.json({ ok: true, message: `Category ${slug} deleted successfully` })
   } catch (err) {
     console.error('Error deleting category:', err)

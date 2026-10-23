@@ -122,7 +122,8 @@ function AdminLoginForm() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full rounded-full bg-[#0d0f12] py-3.5 text-sm font-semibold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+            className="cta-dark w-full rounded-full bg-[#0d0f12] py-3.5 text-sm font-semibold !text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+            style={{ color: '#ffffff' }}
           >
             {loading ? 'Authenticating...' : 'Sign In to Dashboard'}
           </button>

@@ -54,10 +54,18 @@ textarea {
 
 button {
   font: inherit;
+  cursor: pointer;
+}
+
+button:not([class*='text-']):not(.cta-dark):not(.cta-light):not(.cta-ghost) {
   color: inherit;
 }
 
-/* Dark CTAs: ensure label stays white even if utilities conflict */
+/* Dark CTAs and white text buttons: strictly ensure label stays white */
+button.text-white,
+button[class*='text-white'],
+button.cta-dark,
+.cta-dark,
 button[style*='color: #ffffff'],
 button[style*='color:#ffffff'],
 a[style*='color: #ffffff'],

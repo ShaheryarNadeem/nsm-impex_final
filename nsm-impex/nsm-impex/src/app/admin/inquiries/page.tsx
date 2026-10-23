@@ -220,6 +220,23 @@ export default function AdminInquiriesPage() {
                     </p>
                   </div>
                 ) : null}
+
+                {/* Attached Reference File / Tech-Pack */}
+                {item.attachmentUrl ? (
+                  <div className="mt-3.5 flex items-center gap-2 border-t border-[#e4e2dc]/60 pt-3">
+                    <span className="text-xs font-semibold uppercase tracking-wider text-[#6a7078]">
+                      Attached Reference File:
+                    </span>
+                    <a
+                      href={item.attachmentUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 rounded-full border border-blue-200 bg-blue-50 px-3.5 py-1 text-xs font-semibold text-blue-700 hover:bg-blue-100 transition"
+                    >
+                      📎 View / Download Attachment
+                    </a>
+                  </div>
+                ) : null}
               </article>
             )
           })}

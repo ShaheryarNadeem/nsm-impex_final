@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { revalidatePath } from 'next/cache'
 import { getAllCategories, upsertCategory } from '@/lib/categories/store'
 import { verifyAdminAccess } from '@/lib/supabase/server'
 
@@ -36,6 +37,12 @@ export async function POST(req: NextRequest) {
       image,
       subcategories: Array.isArray(subcategories) ? subcategories : [],
     })
+
+    // Invalidate Next.js cache so dashboard and storefront immediately show updated categories
+    revalidatePath('/admin')
+    revalidatePath('/admin/categories')
+    revalidatePath('/products')
+    revalidatePath('/')
 
     return NextResponse.json(saved, { status: 201 })
   } catch (err) {
