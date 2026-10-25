@@ -1,0 +1,11 @@
+{
+  "name": "nsm-impex-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix nsm-impex/nsm-impex run dev",
+    "build": "npm --prefix nsm-impex/nsm-impex run build",
+    "start": "npm --prefix nsm-impex/nsm-impex run start",
+    "lint": "npm --prefix nsm-impex/nsm-impex run lint"
+  }
+}
