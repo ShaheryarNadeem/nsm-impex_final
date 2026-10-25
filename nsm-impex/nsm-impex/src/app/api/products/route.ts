@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { revalidatePath } from 'next/cache'
 import {
   deleteProduct,
   getAllProducts,
@@ -35,11 +36,19 @@ export async function POST(req: NextRequest) {
       subcategory?: string
     }>
     const added = await importProducts(items)
+    revalidatePath('/admin')
+    revalidatePath('/admin/products')
+    revalidatePath('/products')
+    revalidatePath('/')
     return NextResponse.json({ added })
   }
 
   if (body?.action === 'reorder') {
     await reorderProducts(body.ids || [])
+    revalidatePath('/admin')
+    revalidatePath('/admin/products')
+    revalidatePath('/products')
+    revalidatePath('/')
     return NextResponse.json({ ok: true })
   }
 
@@ -80,6 +89,10 @@ export async function POST(req: NextRequest) {
   }
 
   const saved = await upsertProduct(product)
+  revalidatePath('/admin')
+  revalidatePath('/admin/products')
+  revalidatePath('/products')
+  revalidatePath('/')
   return NextResponse.json(saved)
 }
 
@@ -96,5 +109,9 @@ export async function DELETE(req: NextRequest) {
   const id = searchParams.get('id')
   if (!id) return NextResponse.json({ error: 'Missing id' }, { status: 400 })
   const ok = await deleteProduct(id)
+  revalidatePath('/admin')
+  revalidatePath('/admin/products')
+  revalidatePath('/products')
+  revalidatePath('/')
   return NextResponse.json({ ok })
 }

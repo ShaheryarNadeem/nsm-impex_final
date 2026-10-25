@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs'
 import path from 'path'
 import type { Category } from '@/lib/products/types'
-import { isSupabaseConfigured, supabase } from '@/lib/supabase'
+import { getServiceSupabase, isSupabaseConfigured, supabase } from '@/lib/supabase'
 import { DEFAULT_CATEGORIES } from '@/lib/products/categories'
 
 export { DEFAULT_CATEGORIES } from '@/lib/products/categories'
@@ -24,9 +24,10 @@ function mapDbRowToCategory(row: Record<string, unknown>): Category {
 
 export async function getAllCategories(): Promise<Category[]> {
   // 1. Supabase Cloud fetch if configured
-  if (isSupabaseConfigured && supabase) {
+  const client = getServiceSupabase() || supabase
+  if (isSupabaseConfigured && client) {
     try {
-      const { data, error } = await supabase.from('categories').select('*').order('created_at', { ascending: true })
+      const { data, error } = await client.from('categories').select('*').order('created_at', { ascending: true })
       if (!error && Array.isArray(data) && data.length > 0) {
         memoryCategories = data.map(mapDbRowToCategory)
         return memoryCategories
@@ -105,9 +106,10 @@ export async function upsertCategory(cat: {
   }
 
   // 1. Save to Supabase Cloud if configured
-  if (isSupabaseConfigured && supabase) {
+  const client = getServiceSupabase() || supabase
+  if (isSupabaseConfigured && client) {
     try {
-      await supabase.from('categories').upsert(
+      const { error } = await client.from('categories').upsert(
         {
           id: updated.id,
           slug: updated.slug,
@@ -119,6 +121,9 @@ export async function upsertCategory(cat: {
         },
         { onConflict: 'slug' }
       )
+      if (error) {
+        console.error('Error upserting category to Supabase:', error)
+      }
     } catch (err) {
       console.error('Error upserting category to Supabase:', err)
     }
@@ -141,9 +146,13 @@ export async function deleteCategory(slug: string): Promise<boolean> {
   if (filtered.length === all.length) return false
 
   // 1. Delete from Supabase if configured
-  if (isSupabaseConfigured && supabase) {
+  const client = getServiceSupabase() || supabase
+  if (isSupabaseConfigured && client) {
     try {
-      await supabase.from('categories').delete().eq('slug', slug)
+      const { error } = await client.from('categories').delete().eq('slug', slug)
+      if (error) {
+        console.error('Error deleting category from Supabase:', error)
+      }
     } catch (err) {
       console.error('Error deleting category from Supabase:', err)
     }
@@ -165,12 +174,16 @@ export async function addSubcategory(categorySlug: string, subcategoryName: stri
   if (!target.subcategories.some((s) => s.toLowerCase() === trimmed.toLowerCase())) {
     target.subcategories.push(trimmed)
 
-    if (isSupabaseConfigured && supabase) {
+    const client = getServiceSupabase() || supabase
+    if (isSupabaseConfigured && client) {
       try {
-        await supabase
+        const { error } = await client
           .from('categories')
           .update({ subcategories: target.subcategories, updated_at: new Date().toISOString() })
           .eq('slug', categorySlug)
+        if (error) {
+          console.error('Error updating subcategories in Supabase:', error)
+        }
       } catch (err) {
         console.error('Error updating subcategories in Supabase:', err)
       }
@@ -191,12 +204,16 @@ export async function removeSubcategory(categorySlug: string, subcategoryName: s
     (s) => s.toLowerCase() !== subcategoryName.toLowerCase()
   )
 
-  if (isSupabaseConfigured && supabase) {
+  const client = getServiceSupabase() || supabase
+  if (isSupabaseConfigured && client) {
     try {
-      await supabase
+      const { error } = await client
         .from('categories')
         .update({ subcategories: target.subcategories, updated_at: new Date().toISOString() })
         .eq('slug', categorySlug)
+      if (error) {
+        console.error('Error updating subcategories in Supabase:', error)
+      }
     } catch (err) {
       console.error('Error updating subcategories in Supabase:', err)
     }

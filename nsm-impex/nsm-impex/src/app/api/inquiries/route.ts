@@ -2,7 +2,7 @@ import { promises as fs } from 'fs'
 import path from 'path'
 import { NextRequest, NextResponse } from 'next/server'
 import { revalidatePath } from 'next/cache'
-import { isSupabaseConfigured, supabase, uploadImageToSupabase } from '@/lib/supabase'
+import { getServiceSupabase, isSupabaseConfigured, supabase, uploadImageToSupabase } from '@/lib/supabase'
 import { verifyAdminAccess } from '@/lib/supabase/server'
 import type { Inquiry } from '@/lib/products/types'
 
@@ -152,9 +152,10 @@ export async function POST(req: NextRequest) {
     }
 
     // 2. Save to Supabase Cloud if configured
-    if (isSupabaseConfigured && supabase) {
+    const client = getServiceSupabase() || supabase
+    if (isSupabaseConfigured && client) {
       try {
-        await supabase.from('inquiries').insert({
+        const { error } = await client.from('inquiries').insert({
           id: inquiry.id,
           name: inquiry.name,
           company: inquiry.company || null,
@@ -170,6 +171,9 @@ export async function POST(req: NextRequest) {
           attachment_url: inquiry.attachmentUrl || null,
           created_at: inquiry.createdAt,
         })
+        if (error) {
+          console.error('Error inserting inquiry into Supabase:', error)
+        }
       } catch (dbErr) {
         console.error('Error inserting inquiry into Supabase:', dbErr)
       }
@@ -212,9 +216,10 @@ export async function GET(req: NextRequest) {
   }
 
   // 1. Fetch from Supabase Cloud if configured
-  if (isSupabaseConfigured && supabase) {
+  const client = getServiceSupabase() || supabase
+  if (isSupabaseConfigured && client) {
     try {
-      const { data, error } = await supabase
+      const { data, error } = await client
         .from('inquiries')
         .select('*')
         .order('created_at', { ascending: false })
@@ -269,9 +274,13 @@ export async function DELETE(req: NextRequest) {
   }
 
   // 1. Delete from Supabase if configured
-  if (isSupabaseConfigured && supabase) {
+  const client = getServiceSupabase() || supabase
+  if (isSupabaseConfigured && client) {
     try {
-      await supabase.from('inquiries').delete().eq('id', id)
+      const { error } = await client.from('inquiries').delete().eq('id', id)
+      if (error) {
+        console.error('Error deleting inquiry from Supabase:', error)
+      }
     } catch (err) {
       console.error('Error deleting inquiry from Supabase:', err)
     }

@@ -2,7 +2,7 @@ import { promises as fs } from 'fs'
 import path from 'path'
 import type { Product } from './types'
 import { createSeedProducts } from './seed'
-import { isSupabaseConfigured, supabase } from '@/lib/supabase'
+import { getServiceSupabase, isSupabaseConfigured, supabase } from '@/lib/supabase'
 
 const DATA_DIR = path.join(process.cwd(), 'data')
 const CATALOG_PATH = path.join(DATA_DIR, 'catalog.json')
@@ -76,9 +76,10 @@ function mapProductToDbRow(p: Product) {
 
 async function ensureCatalog(): Promise<Product[]> {
   // 1. If Supabase is configured, fetch from cloud DB
-  if (isSupabaseConfigured && supabase) {
+  const client = getServiceSupabase() || supabase
+  if (isSupabaseConfigured && client) {
     try {
-      const { data, error } = await supabase
+      const { data, error } = await client
         .from('products')
         .select('*')
         .order('sort_order', { ascending: true })
@@ -184,10 +185,14 @@ export async function upsertProduct(product: Product): Promise<Product> {
   const next: Product = { ...(clean as unknown as Product), updatedAt: new Date().toISOString() }
 
   // 1. Save to Supabase Cloud if configured
-  if (isSupabaseConfigured && supabase) {
+  const client = getServiceSupabase() || supabase
+  if (isSupabaseConfigured && client) {
     try {
       const dbRow = mapProductToDbRow(next)
-      await supabase.from('products').upsert(dbRow, { onConflict: 'id' })
+      const { error } = await client.from('products').upsert(dbRow, { onConflict: 'id' })
+      if (error) {
+        console.error('Error upserting product to Supabase:', error)
+      }
     } catch (err) {
       console.error('Error upserting product to Supabase:', err)
     }
@@ -206,9 +211,13 @@ export async function deleteProduct(id: string): Promise<boolean> {
   if (next.length === products.length) return false
 
   // 1. Delete from Supabase if configured
-  if (isSupabaseConfigured && supabase) {
+  const client = getServiceSupabase() || supabase
+  if (isSupabaseConfigured && client) {
     try {
-      await supabase.from('products').delete().eq('id', id)
+      const { error } = await client.from('products').delete().eq('id', id)
+      if (error) {
+        console.error('Error deleting product from Supabase:', error)
+      }
     } catch (err) {
       console.error('Error deleting product from Supabase:', err)
     }
@@ -301,8 +310,8 @@ export async function reorderProducts(orderedIds: string[]): Promise<void> {
   for (const rest of map.values()) reordered.push(rest)
 
   // 1. Sync updated sort_order to Supabase Cloud if configured
-  if (isSupabaseConfigured && supabase) {
-    const client = supabase
+  const client = getServiceSupabase() || supabase
+  if (isSupabaseConfigured && client) {
     try {
       await Promise.all(
         reordered.map((p) =>

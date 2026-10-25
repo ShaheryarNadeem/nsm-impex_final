@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { revalidatePath } from 'next/cache'
 import { deleteProduct, duplicateProduct, getProductById, upsertProduct } from '@/lib/products/store'
 import type { Product } from '@/lib/products/types'
 import { verifyAdminAccess } from '@/lib/supabase/server'
@@ -45,6 +46,14 @@ export async function PUT(req: NextRequest, { params }: Params) {
     updatedAt: new Date().toISOString(),
   }
   const saved = await upsertProduct(next)
+  revalidatePath('/admin')
+  revalidatePath('/admin/products')
+  revalidatePath('/products')
+  revalidatePath('/')
+  if (saved.category && saved.slug) {
+    revalidatePath(`/products/${saved.category}`)
+    revalidatePath(`/products/${saved.category}/${saved.slug}`)
+  }
   return NextResponse.json(saved)
 }
 
@@ -62,6 +71,10 @@ export async function POST(req: NextRequest, { params }: Params) {
   if (body?.action === 'duplicate') {
     const copy = await duplicateProduct(id)
     if (!copy) return NextResponse.json({ error: 'Not found' }, { status: 404 })
+    revalidatePath('/admin')
+    revalidatePath('/admin/products')
+    revalidatePath('/products')
+    revalidatePath('/')
     return NextResponse.json(copy)
   }
   return NextResponse.json({ error: 'Unknown action' }, { status: 400 })
@@ -77,6 +90,15 @@ export async function DELETE(req: NextRequest, { params }: Params) {
   }
 
   const { id } = await params
+  const existing = await getProductById(id)
   const ok = await deleteProduct(id)
+  revalidatePath('/admin')
+  revalidatePath('/admin/products')
+  revalidatePath('/products')
+  revalidatePath('/')
+  if (existing?.category && existing?.slug) {
+    revalidatePath(`/products/${existing.category}`)
+    revalidatePath(`/products/${existing.category}/${existing.slug}`)
+  }
   return NextResponse.json({ ok })
 }
