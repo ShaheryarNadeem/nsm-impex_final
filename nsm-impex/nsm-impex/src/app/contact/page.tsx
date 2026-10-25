@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { InquiryForm } from '@/components/inquiry/InquiryForm'
-import { PLACEHOLDER } from '@/lib/products/types'
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -24,14 +23,18 @@ export default function ContactPage() {
               <div>
                 <dt className="text-xs font-semibold uppercase tracking-[0.12em]">Email</dt>
                 <dd className="mt-1 text-ink">
-                  <a href="mailto:info@nsmimpex.com" className="hover:underline">
-                    info@nsmimpex.com
+                  <a href="mailto:nsmimpex.pk@gmail.com" className="hover:underline">
+                    nsmimpex.pk@gmail.com
                   </a>
                 </dd>
               </div>
               <div>
                 <dt className="text-xs font-semibold uppercase tracking-[0.12em]">WhatsApp & Phone</dt>
-                <dd className="mt-1 text-ink">{PLACEHOLDER}</dd>
+                <dd className="mt-1 text-ink">
+                  <a href="tel:+923079952363" className="hover:underline">
+                    +92 307 9952363
+                  </a>
+                </dd>
               </div>
               <div>
                 <dt className="text-xs font-semibold uppercase tracking-[0.12em]">Headquarters & Export</dt>
@@ -46,18 +49,18 @@ export default function ContactPage() {
 
           <div className="flex flex-wrap gap-3">
             <a
-              href="mailto:info@nsmimpex.com"
+              href="mailto:nsmimpex.pk@gmail.com"
               className="rounded-full border border-[#0d0f12] bg-white px-5 py-2.5 text-sm font-semibold text-[#0d0f12] transition-colors hover:bg-[#f7f6f2]"
             >
               Email Us Directly
             </a>
             <a
-              href="https://wa.me/?text=Hello%20NSM%20Impex%2C%20I%20am%20interested%20in%20apparel%20manufacturing."
+              href="https://wa.me/923079952363"
               target="_blank"
               rel="noopener noreferrer"
-              className="cta-dark rounded-full px-5 py-2.5 text-sm font-semibold transition hover:opacity-90"
+              className="cta-dark rounded-full px-5 py-2.5 text-sm font-semibold transition hover:opacity-90 inline-flex items-center gap-2"
             >
-              Chat on WhatsApp
+              <span>Chat on WhatsApp</span>
             </a>
           </div>
 

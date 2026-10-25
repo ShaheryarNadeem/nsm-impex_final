@@ -117,6 +117,16 @@ export function ProductDetailActions({ product }: { product: Product }) {
           >
             Place Order Inquiry
           </button>
+          <a
+            href={`https://wa.me/923079952363?text=${encodeURIComponent(
+              `Hello NSM Impex, I am interested in placing an inquiry for ${product.name} (Code: ${product.productCode || 'N/A'}). Options: Size ${size}, Color ${color}, Quantity ${qty} pcs.`
+            )}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-emerald-600 bg-emerald-50 px-5 py-3 text-sm font-semibold text-emerald-800 transition hover:bg-emerald-100"
+          >
+            <span>WhatsApp Quote</span>
+          </a>
           <Link
             href={inquiryHref}
             className="cta-light rounded-full border px-6 py-3 text-sm font-semibold transition"

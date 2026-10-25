@@ -32,15 +32,38 @@ export default function AboutPage() {
         ))}
       </div>
 
-      <div className="mt-12 rounded-2xl border border-dashed border-line bg-soft p-8">
-        <h2 className="text-xl font-semibold">Company details</h2>
+      <div className="mt-12 rounded-2xl border border-line bg-white p-8">
+        <h2 className="text-xl font-semibold">Manufacturing Hub & Contact</h2>
         <p className="mt-3 text-sm leading-relaxed text-muted">
-          Years of experience, factory size, certifications, client names, export countries and production capacity are
-          available on request / to be confirmed.
+          Headquartered in Sialkot, Pakistan — the global manufacturing heartland for apparel, activewear, and textile export. Factory audits, tech-pack consultations, and custom sample development are available by appointment.
         </p>
-        <Link href="/contact" className="cta-dark mt-6 inline-flex rounded-full px-5 py-2.5 text-sm font-semibold">
-          Contact NSM Impex
-        </Link>
+        <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-[#0d0f12]">
+          <div>
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#6a7078] block">Email</span>
+            <a href="mailto:nsmimpex.pk@gmail.com" className="font-medium hover:underline">
+              nsmimpex.pk@gmail.com
+            </a>
+          </div>
+          <div className="border-l border-line pl-4">
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#6a7078] block">Phone / WhatsApp</span>
+            <a href="tel:+923079952363" className="font-medium hover:underline">
+              +92 307 9952363
+            </a>
+          </div>
+        </div>
+        <div className="mt-7 flex flex-wrap gap-3">
+          <Link href="/contact" className="cta-dark inline-flex rounded-full px-5 py-2.5 text-sm font-semibold">
+            Contact NSM Impex
+          </Link>
+          <a
+            href="https://wa.me/923079952363"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-50 px-5 py-2.5 text-sm font-semibold text-emerald-800 transition hover:bg-emerald-100"
+          >
+            <span>WhatsApp Us</span>
+          </a>
+        </div>
       </div>
     </div>
   )

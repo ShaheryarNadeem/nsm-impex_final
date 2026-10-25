@@ -28,7 +28,19 @@ export default async function InquiryPage({ searchParams }: Props) {
         {isCustom ? 'Request Custom Production' : 'Send Inquiry'}
       </h1>
       <p className="mt-4 max-w-2xl text-base text-[#6a7078]">
-        Tell us about your requirements. Our team will respond with next steps for sampling, production and export.
+        Tell us about your requirements. Our team will respond with next steps for sampling, production and export. For direct WhatsApp communication, message us at{' '}
+        <a
+          href="https://wa.me/923079952363"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-[#0d0f12] underline decoration-emerald-500 hover:text-emerald-700"
+        >
+          +92 307 9952363
+        </a>{' '}
+        or email{' '}
+        <a href="mailto:nsmimpex.pk@gmail.com" className="font-semibold text-[#0d0f12] underline hover:text-[#4a5058]">
+          nsmimpex.pk@gmail.com
+        </a>.
       </p>
       <div className="mt-10 max-w-3xl rounded-2xl border border-[#e4e2dc] bg-white p-6 md:p-8">
         <InquiryForm

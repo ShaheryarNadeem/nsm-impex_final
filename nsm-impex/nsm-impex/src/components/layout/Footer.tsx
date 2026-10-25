@@ -63,13 +63,37 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="mb-4 text-xs font-semibold uppercase tracking-[0.16em] text-white/45">B2B</h4>
-          <p className="mb-5 text-sm leading-relaxed text-white/65">
-            Share your requirements for bulk production, private label and export programs.
+          <h4 className="mb-4 text-xs font-semibold uppercase tracking-[0.16em] text-white/45">B2B Contact</h4>
+          <p className="text-sm leading-relaxed text-white/65">
+            Share requirements for bulk production, private label and custom apparel export.
           </p>
-          <Link href="/inquiry" className="cta-light inline-flex rounded-full px-5 py-2.5 text-sm font-semibold transition">
-            Send Inquiry
-          </Link>
+          <div className="mt-4 space-y-2 text-xs text-white/75">
+            <div>
+              <span className="text-white/45">Email: </span>
+              <a href="mailto:nsmimpex.pk@gmail.com" className="text-white hover:underline">
+                nsmimpex.pk@gmail.com
+              </a>
+            </div>
+            <div>
+              <span className="text-white/45">WhatsApp / Phone: </span>
+              <a href="tel:+923079952363" className="text-white hover:underline">
+                +92 307 9952363
+              </a>
+            </div>
+          </div>
+          <div className="mt-5 flex flex-wrap gap-2.5">
+            <Link href="/inquiry" className="cta-light inline-flex rounded-full px-4 py-2 text-xs font-semibold transition">
+              Send Inquiry
+            </Link>
+            <a
+              href="https://wa.me/923079952363"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-4 py-2 text-xs font-semibold text-emerald-300 transition hover:bg-emerald-500/20"
+            >
+              <span>WhatsApp Chat</span>
+            </a>
+          </div>
         </div>
       </div>
 
