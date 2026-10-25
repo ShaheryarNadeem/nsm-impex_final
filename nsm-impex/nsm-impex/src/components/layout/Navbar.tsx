@@ -42,11 +42,16 @@ export function Navbar() {
     >
       <div className="container-x flex h-[72px] items-center justify-between gap-4">
         <Link href="/" className="group flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center rounded-xl bg-[linear-gradient(145deg,#0d0f12_0%,#5c6b5a_140%)] text-sm font-semibold tracking-wide text-white shadow-[0_8px_20px_rgba(13,15,18,0.18)]">
-            N
-          </span>
+          <div className="relative flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-line bg-white p-1 shadow-sm transition group-hover:scale-105">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo.jpeg"
+              alt="NSM Impex"
+              className="h-full w-full object-contain"
+            />
+          </div>
           <span className="leading-tight">
-            <span className="block font-[family-name:var(--font-display)] text-lg font-bold tracking-tight">
+            <span className="block font-[family-name:var(--font-display)] text-lg font-bold tracking-tight text-[#0d0f12]">
               NSM IMPEX
             </span>
             <span className="block text-[10px] font-semibold uppercase tracking-[0.18em] text-muted">

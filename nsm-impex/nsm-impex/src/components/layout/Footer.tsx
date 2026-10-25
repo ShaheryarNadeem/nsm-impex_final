@@ -25,8 +25,21 @@ export function Footer() {
     <footer className="mt-20 bg-ink text-white">
       <div className="container-x grid gap-10 py-16 md:grid-cols-4">
         <div className="md:col-span-1">
-          <p className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight">NSM IMPEX</p>
-          <p className="mt-3 max-w-xs text-sm leading-relaxed text-white/65">
+          <Link href="/" className="group inline-flex items-center gap-3">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-white p-1 shadow-md transition group-hover:scale-105">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logo.jpeg"
+                alt="NSM Impex"
+                className="h-full w-full object-contain"
+              />
+            </div>
+            <div>
+              <p className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-white">NSM IMPEX</p>
+              <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-white/50">Treads & Garments</p>
+            </div>
+          </Link>
+          <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/65">
             Treads & Garments Manufacturer & Exporter
           </p>
         </div>

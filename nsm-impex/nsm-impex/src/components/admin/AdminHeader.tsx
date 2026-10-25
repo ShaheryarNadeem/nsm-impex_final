@@ -40,11 +40,16 @@ export function AdminHeader() {
         <div className="flex items-center gap-6">
           <Link
             href="/admin"
-            className="flex items-center gap-2 font-[family-name:var(--font-display)] text-lg font-bold text-[#0d0f12]"
+            className="flex items-center gap-2.5 font-[family-name:var(--font-display)] text-lg font-bold text-[#0d0f12]"
           >
-            <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#0d0f12] text-xs font-bold text-white">
-              N
-            </span>
+            <div className="flex h-8 w-8 items-center justify-center overflow-hidden rounded-lg border border-[#e4e2dc] bg-white p-0.5">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logo.jpeg"
+                alt="NSM Impex"
+                className="h-full w-full object-contain"
+              />
+            </div>
             <span>NSM Admin</span>
           </Link>
 

@@ -51,8 +51,9 @@ function AdminLoginForm() {
     <div className="flex min-h-[80vh] items-center justify-center px-4 py-12">
       <div className="w-full max-w-md rounded-3xl border border-[#e4e2dc] bg-white p-8 shadow-sm sm:p-10">
         <div className="text-center">
-          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-[#0d0f12] text-xl font-bold text-white">
-            N
+          <div className="mx-auto flex h-16 w-16 items-center justify-center overflow-hidden rounded-2xl border border-[#e4e2dc] bg-white p-1.5 shadow-sm">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.jpeg" alt="NSM Impex" className="h-full w-full object-contain" />
           </div>
           <h1 className="mt-4 font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-[#0d0f12]">
             NSM Admin Portal

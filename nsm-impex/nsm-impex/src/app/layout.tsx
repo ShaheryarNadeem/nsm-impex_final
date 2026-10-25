@@ -24,12 +24,25 @@ export const metadata: Metadata = {
   },
   description:
     'NSM Impex manufactures and exports quality treads and garments for brands, wholesalers and international buyers.',
+  icons: {
+    icon: '/logo.jpeg',
+    shortcut: '/logo.jpeg',
+    apple: '/logo.jpeg',
+  },
   openGraph: {
     title: 'NSM Impex | Treads & Garments Manufacturer & Exporter',
     description:
       'Premium apparel manufacturing and export for B2B buyers, wholesalers and clothing brands.',
     type: 'website',
     siteName: 'NSM Impex',
+    images: [
+      {
+        url: '/logo.jpeg',
+        width: 800,
+        height: 800,
+        alt: 'NSM Impex Logo',
+      },
+    ],
   },
 }
 
