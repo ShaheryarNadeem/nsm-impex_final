@@ -1,5 +1,20 @@
 [
   {
+    "id": "inq-1792757379739",
+    "name": "Mr John",
+    "email": "mrjohn@gmail.com",
+    "company": "advtance tec",
+    "phone": "+92 3079952363",
+    "country": "Pakista",
+    "product": "puffer jacket",
+    "productCode": "top 909",
+    "quantity": "50",
+    "size": "S, M, L",
+    "color": "all",
+    "message": "will you know later.",
+    "createdAt": "2026-10-23T12:09:39.739Z"
+  },
+  {
     "id": "inq-1792529677524",
     "name": "John",
     "email": "john@shop.com",

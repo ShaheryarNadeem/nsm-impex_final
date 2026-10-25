@@ -241,6 +241,14 @@ VALUES
   'Matched co-ords and utility sets designed for cohesive wholesale apparel collections.',
   '/products/cargo-set-custom-1.png',
   '["Cargo Sets", "Casual Sets", "Lounge Sets", "Tracksuits", "Co-ord Sets"]'::jsonb
+),
+(
+  'cat-accessories',
+  'accessories',
+  'Accessories',
+  'Caps, Hat, Socks, Gloves, Mufflers',
+  '',
+  '["Cap/Hat", "Socks", "Mufflers", "Gloves", "Neck Warmer & Caps"]'::jsonb
 )
 ON CONFLICT (slug) DO NOTHING;
 

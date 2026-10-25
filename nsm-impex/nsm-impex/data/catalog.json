@@ -29,55 +29,6 @@
     "updatedAt": "2026-10-15T00:36:10.097Z"
   },
   {
-    "id": "prod-sherpa-jacket-1792527474037",
-    "name": "Sherpa Jacket",
-    "slug": "sherpa-jacket",
-    "category": "jackets-outerwear",
-    "subcategory": "Lightweight jacket",
-    "productCode": "0321",
-    "description": "Light material but will keep you warm",
-    "shortDescription": "Puffer Light Weight Jacket",
-    "images": [
-      {
-        "id": "img-1792527419229-0",
-        "url": "/uploads/1792527419221-hu.jpg",
-        "kind": "main",
-        "alt": "Sherpa Jacket"
-      }
-    ],
-    "fabric": "",
-    "composition": "",
-    "gsm": "",
-    "fit": "",
-    "sizes": "S, M, L",
-    "colors": "Black, White",
-    "sizeOptions": [
-      "S",
-      "M",
-      "L"
-    ],
-    "colorOptions": [
-      {
-        "name": "Black",
-        "hex": "#111111"
-      },
-      {
-        "name": "White",
-        "hex": "#f5f5f5"
-      }
-    ],
-    "season": "",
-    "customization": "",
-    "packaging": "",
-    "moq": "50 pcs",
-    "leadTime": "",
-    "featured": false,
-    "published": true,
-    "sortOrder": 0,
-    "createdAt": "2026-10-20T20:17:54.074Z",
-    "updatedAt": "2026-10-20T20:19:48.115Z"
-  },
-  {
     "id": "prod-pullover-hoodie",
     "name": "Pullover Hoodie",
     "slug": "pullover-hoodie",
@@ -4916,5 +4867,90 @@
     "sortOrder": 52,
     "createdAt": "2026-09-25T16:39:49.414Z",
     "updatedAt": "2026-09-25T16:39:49.414Z"
+  },
+  {
+    "id": "prod-sherpa-jacket-1792766560644",
+    "name": "Sherpa jacket",
+    "slug": "sherpa-jacket",
+    "category": "jackets-outerwear",
+    "subcategory": "Sherpa jacket",
+    "productCode": "top",
+    "description": "Designed for warmth, comfort, and a premium winter look. Our Sherpa jackets bring a perfect blend of soft textures and modern outerwear style to your brand’s collection.",
+    "shortDescription": "SHERPA JACKETS | COZY TEXTURE. TIMELESS STYLE. ❄️",
+    "images": [
+      {
+        "id": "img-1792766541263-0",
+        "url": "/uploads/1792766541233-71jlchtt-tl._ac_ul960_ql65_.jpg",
+        "kind": "main",
+        "alt": "Sherpa jacket"
+      },
+      {
+        "id": "img-1792766541263-1",
+        "url": "/uploads/1792766541240-812qq96nlml._ac_uy1000_.jpg",
+        "kind": "additional",
+        "alt": "Sherpa jacket"
+      },
+      {
+        "id": "img-1792766541263-2",
+        "url": "/uploads/1792766541247-vintage-veste-en-jean-387.webp",
+        "kind": "additional",
+        "alt": "Sherpa jacket"
+      }
+    ],
+    "fabric": "",
+    "composition": "",
+    "gsm": "",
+    "fit": "",
+    "sizes": "XS, S, M, L, XL, XXL, XXXL",
+    "colors": "Black, White, Charcoal, Grey, Navy, Beige, Olive",
+    "sizeOptions": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "colorOptions": [
+      {
+        "name": "Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#3a3a3a"
+      },
+      {
+        "name": "Grey",
+        "hex": "#8a8a8a"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1f2a44"
+      },
+      {
+        "name": "Beige",
+        "hex": "#d6c6a8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5c6b5a"
+      }
+    ],
+    "season": "",
+    "customization": "",
+    "packaging": "",
+    "moq": "50 pcs",
+    "leadTime": "",
+    "featured": false,
+    "published": true,
+    "sortOrder": 0,
+    "createdAt": "2026-10-23T14:42:40.704Z",
+    "updatedAt": "2026-10-23T14:42:40.704Z"
   }
 ]
