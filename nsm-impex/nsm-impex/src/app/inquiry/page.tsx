@@ -30,12 +30,12 @@ export default async function InquiryPage({ searchParams }: Props) {
       <p className="mt-4 max-w-2xl text-base text-[#6a7078]">
         Tell us about your requirements. Our team will respond with next steps for sampling, production and export. For direct WhatsApp communication, message us at{' '}
         <a
-          href="https://wa.me/923079952363"
+          href="https://wa.me/923243998808?text=Hello%20NSM%20Impex%2C%20I%20would%20like%20to%20inquire%20about%20custom%20apparel%20manufacturing."
           target="_blank"
           rel="noopener noreferrer"
           className="font-semibold text-[#0d0f12] underline decoration-emerald-500 hover:text-emerald-700"
         >
-          +92 307 9952363
+          +92 324 3998808
         </a>{' '}
         or email{' '}
         <a href="mailto:nsmimpex.pk@gmail.com" className="font-semibold text-[#0d0f12] underline hover:text-[#4a5058]">
