@@ -4,6 +4,15 @@ import { InquiryForm } from '@/components/inquiry/InquiryForm'
 export const metadata: Metadata = {
   title: 'Contact',
   description: 'Contact NSM Impex for bulk apparel production, private label and export inquiries.',
+  alternates: {
+    canonical: 'https://www.nsm-impex.com/contact',
+  },
+  openGraph: {
+    title: 'Contact Us | NSM Impex',
+    description: 'Contact NSM Impex for bulk apparel production, private label and export inquiries.',
+    url: 'https://www.nsm-impex.com/contact',
+    images: [{ url: '/logo.jpg', alt: 'Contact NSM Impex' }],
+  },
 }
 
 export default function ContactPage() {

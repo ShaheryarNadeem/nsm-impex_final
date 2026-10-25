@@ -4,6 +4,15 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'About Us',
   description: 'About NSM Impex — treads and garments manufacturer and exporter for global B2B markets.',
+  alternates: {
+    canonical: 'https://www.nsm-impex.com/about',
+  },
+  openGraph: {
+    title: 'About Us | NSM Impex',
+    description: 'About NSM Impex — treads and garments manufacturer and exporter for global B2B markets.',
+    url: 'https://www.nsm-impex.com/about',
+    images: [{ url: '/logo.jpg', alt: 'About NSM Impex' }],
+  },
 }
 
 export default function AboutPage() {

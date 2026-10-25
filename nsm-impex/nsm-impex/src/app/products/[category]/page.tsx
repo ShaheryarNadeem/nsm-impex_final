@@ -23,9 +23,32 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params
   const cat = await getCategoryBySlug(category)
   if (!cat) return { title: 'Products' }
+  const pageUrl = `https://www.nsm-impex.com/products/${category}`
+  const catImage = cat.image || categoryImages[category] || '/logo.jpg'
+
   return {
-    title: cat.name,
-    description: cat.description,
+    title: `${cat.name} Collection`,
+    description: cat.description || `Browse wholesale ${cat.name} collection by NSM Impex.`,
+    alternates: {
+      canonical: pageUrl,
+    },
+    openGraph: {
+      title: `${cat.name} Collection | NSM Impex`,
+      description: cat.description,
+      url: pageUrl,
+      images: [
+        {
+          url: catImage,
+          alt: cat.name,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${cat.name} Collection | NSM Impex`,
+      description: cat.description,
+      images: [catImage],
+    },
   }
 }
 

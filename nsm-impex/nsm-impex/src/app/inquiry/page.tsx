@@ -4,6 +4,15 @@ import { InquiryForm } from '@/components/inquiry/InquiryForm'
 export const metadata: Metadata = {
   title: 'Send Inquiry',
   description: 'Send a B2B inquiry to NSM Impex for apparel manufacturing and export.',
+  alternates: {
+    canonical: 'https://www.nsm-impex.com/inquiry',
+  },
+  openGraph: {
+    title: 'Send Inquiry | NSM Impex',
+    description: 'Send a B2B inquiry to NSM Impex for apparel manufacturing and export.',
+    url: 'https://www.nsm-impex.com/inquiry',
+    images: [{ url: '/logo.jpg', alt: 'NSM Impex Inquiry' }],
+  },
 }
 
 type Props = {

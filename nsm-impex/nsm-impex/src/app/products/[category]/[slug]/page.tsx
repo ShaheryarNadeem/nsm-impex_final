@@ -23,12 +23,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category, slug } = await params
   const product = await getProductBySlug(category, slug, true)
   if (!product) return { title: 'Product' }
+  const mainImage = product.images?.[0]?.url || '/logo.jpg'
+  const pageUrl = `https://www.nsm-impex.com/products/${category}/${slug}`
+
   return {
     title: product.name,
     description: product.shortDescription || `${product.name} from NSM Impex apparel catalog.`,
+    alternates: {
+      canonical: pageUrl,
+    },
     openGraph: {
       title: `${product.name} | NSM Impex`,
       description: product.shortDescription || undefined,
+      url: pageUrl,
+      images: [
+        {
+          url: mainImage,
+          alt: product.name,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${product.name} | NSM Impex`,
+      description: product.shortDescription || undefined,
+      images: [mainImage],
     },
   }
 }
@@ -39,6 +58,7 @@ export default async function ProductDetailPage({ params }: Props) {
   if (!product) notFound()
   const cat = await getCategoryBySlug(product.category)
   const related = await getRelatedProducts(product, 8)
+  const pageUrl = `https://www.nsm-impex.com/products/${category}/${slug}`
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -47,9 +67,16 @@ export default async function ProductDetailPage({ params }: Props) {
     sku: product.productCode,
     category: cat?.name,
     description: product.description || product.shortDescription,
+    image: product.images?.map((img) => img.url),
+    url: pageUrl,
     brand: {
       '@type': 'Brand',
       name: 'NSM Impex',
+    },
+    offers: {
+      '@type': 'AggregateOffer',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
     },
   }
 

@@ -9,6 +9,15 @@ export const dynamic = 'force-dynamic'
 export const metadata: Metadata = {
   title: 'Products',
   description: 'Browse the NSM Impex apparel catalog — tops, bottoms, sets, jackets and outerwear for B2B buyers.',
+  alternates: {
+    canonical: 'https://www.nsm-impex.com/products',
+  },
+  openGraph: {
+    title: 'Products | NSM Impex',
+    description: 'Browse the NSM Impex apparel catalog — tops, bottoms, sets, jackets and outerwear for B2B buyers.',
+    url: 'https://www.nsm-impex.com/products',
+    images: [{ url: '/logo.jpg', alt: 'NSM Impex Catalog' }],
+  },
 }
 
 export default async function ProductsPage() {
