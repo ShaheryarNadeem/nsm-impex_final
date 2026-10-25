@@ -16,7 +16,7 @@
   {
     "id": "cat-bottoms",
     "slug": "bottoms",
-    "name": "Bottom",
+    "name": "Bottoms",
     "description": "Wholesale bottoms built for comfort, utility and consistent bulk production.",
     "image": "/products/cargo-joggers-custom-1.png",
     "subcategories": [
@@ -38,7 +38,7 @@
   {
     "id": "cat-jackets-outerwear",
     "slug": "jackets-outerwear",
-    "name": "jacket & outwear",
+    "name": "Jackets & Outerwear",
     "description": "Wholesale jackets and outerwear for brands and exporters — from bombers to seasonal layers.",
     "image": "/products/bomber-jackets-custom-1.png",
     "subcategories": [
@@ -68,8 +68,8 @@
     "id": "cat-accessories",
     "name": "Accessories",
     "slug": "accessories",
-    "description": "Caps, Hat, Socks, Gloves, Mufflers",
-    "image": "",
+    "description": "Caps, beanies, socks, gloves, and knitted winter accessories for global wholesale programs.",
+    "image": "/products/accessories-custom-1.jpg",
     "subcategories": [
       "Cap/Hat",
       "Socks",

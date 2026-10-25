@@ -221,7 +221,7 @@ VALUES
 (
   'cat-bottoms',
   'bottoms',
-  'Bottom',
+  'Bottoms',
   'Wholesale bottoms built for comfort, utility and consistent bulk production.',
   '/products/cargo-joggers-custom-1.png',
   '["Cargo Joggers", "Basketball shorts", "Cargo Pants", "cargo shorts", "denim shorts", "Jogger Pants", "Lounge Pants", "Parachute Pants", "shorts", "straight leg pants", "Sweat pants", "sweat shorts", "wide legs pants"]'::jsonb
@@ -229,10 +229,10 @@ VALUES
 (
   'cat-jackets-outerwear',
   'jackets-outerwear',
-  'jacket & outwear',
+  'Jackets & Outerwear',
   'Wholesale jackets and outerwear for brands and exporters — from bombers to seasonal layers.',
   '/products/bomber-jackets-custom-1.png',
-  '["Bomber jackets", "Coach jacket", "denim jacket", "Fleece jacket", "Lightweight jacket"]'::jsonb
+  '["Bomber jackets", "Coach jacket", "denim jacket", "Fleece jacket", "Lightweight jacket", "Sherpa jacket"]'::jsonb
 ),
 (
   'cat-sets',
@@ -246,8 +246,8 @@ VALUES
   'cat-accessories',
   'accessories',
   'Accessories',
-  'Caps, Hat, Socks, Gloves, Mufflers',
-  '',
+  'Caps, beanies, socks, gloves, and knitted winter accessories for global wholesale programs.',
+  '/products/accessories-custom-1.jpg',
   '["Cap/Hat", "Socks", "Mufflers", "Gloves", "Neck Warmer & Caps"]'::jsonb
 )
 ON CONFLICT (slug) DO NOTHING;
