@@ -25,10 +25,10 @@ export default async function HomePage() {
         <div className="container-x relative grid min-h-[88vh] items-end gap-10 py-20 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
           <div className="fade-in max-w-2xl pb-4">
             <p className="mb-5 inline-flex rounded-full border border-white/20 bg-white/5 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-white/75 backdrop-blur">
-              Treads & Garments Manufacturer & Exporter
+              THREADS & GARMENTS MANUFACTURER & EXPORTER
             </p>
             <h1 className="text-4xl leading-[1.02] font-semibold tracking-tight sm:text-5xl lg:text-6xl">
-              Premium Treads & Garments, Made for Global Markets
+              Premium Threads & Garments, Made for Global Markets
             </h1>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-white/72 sm:text-lg">
               Manufacturing and exporting quality apparel for brands, wholesalers and international buyers.

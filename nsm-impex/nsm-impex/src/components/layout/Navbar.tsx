@@ -55,7 +55,7 @@ export function Navbar() {
               NSM IMPEX
             </span>
             <span className="block text-[10px] font-semibold uppercase tracking-[0.18em] text-muted">
-              Treads & Garments
+              Threads & Garments
             </span>
           </span>
         </Link>

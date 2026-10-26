@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: 'About NSM Impex — treads and garments manufacturer and exporter for global B2B markets.',
+  description: 'About NSM Impex — threads and garments manufacturer and exporter for global B2B markets.',
   alternates: {
     canonical: 'https://www.nsm-impex.com/about',
   },
   openGraph: {
     title: 'About Us | NSM Impex',
-    description: 'About NSM Impex — treads and garments manufacturer and exporter for global B2B markets.',
+    description: 'About NSM Impex — threads and garments manufacturer and exporter for global B2B markets.',
     url: 'https://www.nsm-impex.com/about',
     images: [{ url: '/logo.jpg', alt: 'About NSM Impex' }],
   },
@@ -23,7 +23,7 @@ export default function AboutPage() {
         Built for Quality. Made for Global Markets.
       </h1>
       <p className="mt-6 max-w-3xl text-base leading-relaxed text-muted md:text-lg">
-        NSM Impex is a treads and garments manufacturer and exporter focused on producing quality apparel for brands,
+        NSM Impex is a threads and garments manufacturer and exporter focused on producing quality apparel for brands,
         wholesalers, retailers and international buyers.
       </p>
 

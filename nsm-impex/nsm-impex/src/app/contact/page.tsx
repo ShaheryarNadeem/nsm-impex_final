@@ -21,7 +21,7 @@ export default function ContactPage() {
       <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted">Contact</p>
       <h1 className="mt-3 max-w-3xl text-4xl font-semibold tracking-tight">Let’s Build Your Next Collection</h1>
       <p className="mt-4 text-base text-muted">
-        NSM Impex — Treads & Garments Manufacturer & Exporter
+        NSM Impex — Threads & Garments Manufacturer & Exporter
       </p>
 
       <div className="mt-12 grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">

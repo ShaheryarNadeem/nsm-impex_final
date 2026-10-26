@@ -19,11 +19,11 @@ const body = Manrope({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.nsm-impex.com'),
   title: {
-    default: 'NSM Impex | Treads & Garments Manufacturer & Exporter',
+    default: 'NSM Impex | Threads & Garments Manufacturer & Exporter',
     template: '%s | NSM Impex',
   },
   description:
-    'NSM Impex manufactures and exports quality treads and garments for brands, wholesalers and international buyers.',
+    'NSM Impex manufactures and exports quality threads and garments for brands, wholesalers and international buyers.',
   alternates: {
     canonical: 'https://www.nsm-impex.com',
   },
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     apple: '/logo.jpg',
   },
   openGraph: {
-    title: 'NSM Impex | Treads & Garments Manufacturer & Exporter',
+    title: 'NSM Impex | Threads & Garments Manufacturer & Exporter',
     description:
       'Premium apparel manufacturing and export for B2B buyers, wholesalers and clothing brands.',
     url: 'https://www.nsm-impex.com',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NSM Impex | Treads & Garments Manufacturer & Exporter',
+    title: 'NSM Impex | Threads & Garments Manufacturer & Exporter',
     description:
       'Premium apparel manufacturing and export for B2B buyers, wholesalers and clothing brands.',
     images: ['/logo.jpg'],

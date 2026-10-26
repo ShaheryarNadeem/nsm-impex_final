@@ -36,11 +36,11 @@ export function Footer() {
             </div>
             <div>
               <p className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-white">NSM IMPEX</p>
-              <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-white/50">Treads & Garments</p>
+              <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-white/50">Threads & Garments</p>
             </div>
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/65">
-            Treads & Garments Manufacturer & Exporter
+            Threads & Garments Manufacturer & Exporter
           </p>
         </div>
 
