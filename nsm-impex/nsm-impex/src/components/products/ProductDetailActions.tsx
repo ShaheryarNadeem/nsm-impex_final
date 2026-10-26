@@ -133,8 +133,7 @@ export function ProductDetailActions({ product }: { product: Product }) {
           </a>
           <Link
             href={inquiryHref}
-            className="cta-light rounded-full border px-6 py-3 text-sm font-semibold transition"
-            style={{ borderColor: '#0d0f12' }}
+            className="cta-dark rounded-full px-6 py-3 text-sm font-semibold transition hover:opacity-90"
           >
             Full Inquiry Form
           </Link>

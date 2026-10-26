@@ -36,13 +36,13 @@ export default async function HomePage() {
             <div className="mt-9 flex flex-wrap gap-3">
               <Link
                 href="/products"
-                className="cta-light rounded-full px-6 py-3 text-sm font-semibold transition hover:-translate-y-0.5"
+                className="cta-dark rounded-full border border-white/20 px-6 py-3 text-sm font-semibold transition hover:-translate-y-0.5 hover:opacity-90"
               >
                 Explore Products
               </Link>
               <Link
                 href="/inquiry"
-                className="cta-ghost rounded-full px-6 py-3 text-sm font-semibold backdrop-blur transition hover:-translate-y-0.5"
+                className="cta-dark rounded-full border border-white/20 px-6 py-3 text-sm font-semibold transition hover:-translate-y-0.5 hover:opacity-90"
               >
                 Send an Inquiry
               </Link>
@@ -107,7 +107,7 @@ export default async function HomePage() {
                 <p className="text-xs font-semibold uppercase tracking-[0.16em] text-white/70">0{i + 1}</p>
                 <h3 className="mt-2 text-2xl font-semibold text-white drop-shadow-sm">{cat.name}</h3>
                 <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-white/90">{cat.description}</p>
-                <span className="cta-light mt-4 inline-flex rounded-full px-4 py-2 text-sm font-semibold transition group-hover:translate-x-1">
+                <span className="cta-dark mt-4 inline-flex rounded-full border border-white/20 px-4 py-2 text-sm font-semibold transition group-hover:translate-x-1">
                   Explore →
                 </span>
               </div>
@@ -155,8 +155,7 @@ export default async function HomePage() {
             </p>
             <Link
               href="/inquiry?type=custom"
-              className="cta-light mt-8 inline-flex rounded-full px-6 py-3 text-sm font-semibold transition hover:-translate-y-0.5"
-              style={{ backgroundColor: '#ffffff', color: '#0d0f12' }}
+              className="cta-dark mt-8 inline-flex rounded-full border border-white/20 px-6 py-3 text-sm font-semibold transition hover:-translate-y-0.5 hover:opacity-90"
             >
               Request Custom Production
             </Link>

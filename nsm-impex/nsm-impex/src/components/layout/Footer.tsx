@@ -95,7 +95,7 @@ export function Footer() {
             </div>
           </div>
           <div className="mt-5 flex flex-wrap gap-2.5">
-            <Link href="/inquiry" className="cta-light inline-flex rounded-full px-4 py-2 text-xs font-semibold transition">
+            <Link href="/inquiry" className="cta-dark inline-flex rounded-full border border-white/20 px-4 py-2 text-xs font-semibold text-white transition hover:bg-white/10">
               Send Inquiry
             </Link>
             <a

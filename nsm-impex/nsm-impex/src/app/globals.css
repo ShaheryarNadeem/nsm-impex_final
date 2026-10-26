@@ -117,6 +117,12 @@ button.cta-dark,
 .cta-dark {
   background-color: #0d0f12 !important;
   color: #ffffff !important;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+a.cta-dark:hover,
+button.cta-dark:hover,
+.cta-dark:hover {
+  opacity: 0.9;
 }
 a.cta-dark *,
 button.cta-dark *,

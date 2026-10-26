@@ -222,7 +222,7 @@ export function InquiryForm({
         <button
           type="button"
           onClick={resetForm}
-          className="mt-6 rounded-full border border-emerald-800/20 bg-white px-5 py-2 text-xs font-semibold text-emerald-900 shadow-2xs hover:bg-emerald-100/50 transition"
+          className="cta-dark mt-6 rounded-full px-5 py-2 text-xs font-semibold !text-white transition hover:opacity-90"
         >
           Submit Another Inquiry
         </button>
